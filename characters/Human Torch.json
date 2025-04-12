@@ -1,0 +1,78 @@
+{
+  "name": "Human Torch",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6 m/s (Ground) / 8 m/s (Flight)",
+  "color_theme": "#F97316",
+  "color_theme_secondary": "#FEF3C7",
+  "abilities": [
+    {
+      "name": "Fireball",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "55 + 10 Burn DoT over 2s",
+      "range": "Medium Projectile",
+      "cooldown": "N/A (Uses Heat Meter)",
+      "details": "Shoots fireballs that apply a burn effect. Generates Heat."
+    },
+    {
+      "name": "Flame On! (Flight)",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A (Uses Heat Meter)",
+      "details": "Engulfs himself in flame, allowing flight. Consumes Heat rapidly."
+    },
+    {
+      "name": "Nova Burst",
+      "keybind": "E",
+      "type": "Utility / AoE Damage",
+      "damage": "120 AoE Damage",
+      "range": "6m Radius AoE around self",
+      "cooldown": "10s (Consumes large amount of Heat)",
+      "details": "Releases a powerful burst of heat and flame. Requires high Heat level."
+    },
+     {
+      "name": "Heat Vent",
+      "keybind": "RMB",
+      "type": "Utility",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "4s",
+      "details": "Rapidly vents built-up Heat, allowing for longer flight or more ability usage."
+    }
+  ],
+  "ultimate": {
+    "name": "Maximum Heat",
+    "keybind": "Q",
+    "damage": "200 damage per second beam",
+    "range": "Long, Wide Beam (30m?)",
+    "effect": "Fires a sustained, powerful beam of fire. Generates massive Heat.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes his maximum fiery power in a concentrated beam."
+  },
+  "passives": [
+    {
+      "name": "Heat Management",
+      "keybind": "Passive",
+      "details": "Abilities generate Heat. Overheating reduces damage output temporarily. Heat dissipates over time or via Heat Vent."
+    },
+    {
+      "name": "Pyrokinesis",
+      "keybind": "Passive",
+      "details": "Immune to fire damage."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Mr. Fantastic / Invisible Woman / Thing",
+      "effect": "Nova Burst cooldown reduced when near FF members."
+    }
+  ],
+  "lore": "Johnny Storm gained his powers after exposure to cosmic rays during a space mission. He can engulf his body in flames, fly, absorb heat, and control fire.",
+  "comics": [
+    {"title": "Fantastic Four (various series)"},
+    {"title": "The Fantastic Four #1 (First Appearance)"}
+  ]
+}

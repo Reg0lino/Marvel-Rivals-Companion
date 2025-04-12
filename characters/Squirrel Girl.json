@@ -1,0 +1,70 @@
+{
+  "name": "Squirrel Girl",
+  "role": "Duelist",
+  "health": 400,
+  "speed": "6.5 m/s",
+  "color_theme": "#A16207",
+  "color_theme_secondary": "#EF4444",
+  "abilities": [
+    {
+      "name": "Nut Launch",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "~15 per nut (Fires very rapidly)",
+      "range": "Medium Projectile",
+      "cooldown": "N/A (Ammo: 40?)",
+      "details": "Fires nuts rapidly from wrist-mounted launchers."
+    },
+    {
+      "name": "Squirrel Leap",
+      "keybind": "RMB / LShift?",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "12m Leap",
+      "cooldown": "6s",
+      "details": "Performs an agile leap forward. Can cling to walls briefly after."
+    },
+    {
+      "name": "Tippy-Toe's Toss",
+      "keybind": "E",
+      "type": "Utility / Damage",
+      "damage": "Tippy deals ~25 damage per attack",
+      "range": "Medium throw range",
+      "cooldown": "12s",
+      "details": "Throws her companion squirrel, Tippy-Toe. Tippy attacks the nearest enemy for several seconds."
+    }
+  ],
+  "ultimate": {
+    "name": "Squirrelpocalypse",
+    "keybind": "Q",
+    "damage": "~15 damage per squirrel per second",
+    "range": "Large AoE Swarm / Homing",
+    "effect": "Summons a massive horde of squirrels that swarm enemies in an area, dealing continuous damage.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes an overwhelming squirrel assault. Lasts ~6 seconds."
+  },
+  "passives": [
+    {
+      "name": "Squirrel Friend",
+      "keybind": "Passive",
+      "details": "Tippy-Toe assists passively by highlighting nearby enemies occasionally?"
+    },
+    {
+      "name": "Wall Cling/Jump",
+      "keybind": "Passive (Hold Space near wall)",
+      "details": "Can briefly cling to and jump off walls."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Rocket Raccoon",
+      "effect": "Tippy-Toe attacks faster."
+    }
+  ],
+  "lore": "Doreen Green possesses superhuman agility, strength, and the ability to communicate with squirrels. Despite her quirky powers, she is surprisingly effective and has defeated major threats, earning the title 'The Unbeatable Squirrel Girl'.",
+  "comics": [
+    {"title": "The Unbeatable Squirrel Girl (2015)"},
+    {"title": "GLA (Great Lakes Avengers) (2005)"},
+    {"title": "Marvel Super-Heroes Winter Special (1991 - First Appearance)"}
+  ]
+}

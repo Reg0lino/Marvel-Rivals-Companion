@@ -1,0 +1,65 @@
+{
+  "name": "Luna Snow",
+  "role": "Strategist",
+  "health": 400,
+  "speed": "6 m/s",
+  "color_theme": "#7DD3FC",
+  "color_theme_secondary": "#1E3A8A",
+  "abilities": [
+    {
+      "name": "Ice Shard / Heal Pulse",
+      "keybind": "LMB",
+      "type": "Primary Fire (Mode Dependent)",
+      "damage": "Dark Ice: 50 per shard / Light Ice: Heal 30 (Ally) or 15 (Self) pulse",
+      "range": "Medium Projectile / Short AoE Pulse",
+      "cooldown": "N/A",
+      "details": "Dark Mode fires ice shards. Light Mode emits healing pulses."
+    },
+    {
+      "name": "Ice Slide / Frozen Ground",
+      "keybind": "RMB",
+      "type": "Secondary Fire (Mode Dependent)",
+      "damage": "Dark Ice: N/A (Movement) / Light Ice: 15 damage + Slow AoE",
+      "range": "Self (Dash) / Placeable AoE patch",
+      "cooldown": "8s",
+      "details": "Dark Mode performs an icy slide. Light Mode creates a slowing ice patch on the ground."
+    },
+    {
+      "name": "Mode Switch",
+      "keybind": "LShift",
+      "type": "Utility",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "1s",
+      "details": "Switches between Dark Ice (Damage focus) and Light Ice (Healing/Support focus)."
+    }
+  ],
+  "ultimate": {
+    "name": "K-Pop Performance",
+    "keybind": "Q",
+    "damage": "Dark Ice: 250 AoE Damage + Freeze / Light Ice: 300 AoE Heal + Cleanse",
+    "range": "Large AoE (12m radius?)",
+    "effect": "Unleashes a powerful performance. Dark Mode damages and freezes enemies. Light Mode heals allies and removes debuffs.",
+    "charge_cost": "[Cost]",
+    "details": "Combines cryokinesis and stage presence for a major effect based on current mode."
+  },
+  "passives": [
+    {
+      "name": "Cryokinesis",
+      "keybind": "Passive",
+      "details": "Dark Ice shards apply a stacking 'Chill' effect, slowing enemies. Light Ice pulses grant allies minor speed boost."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Iron Man",
+      "effect": "Mode Switch cooldown is slightly reduced."
+    }
+  ],
+  "lore": "Seol Hee, a South Korean K-pop idol who gained cryokinetic powers after an incident involving a Stark Industries cold fusion experiment. She uses her powers for both performing and heroism.",
+  "comics": [
+    {"title": "Future Fight Firsts: Luna Snow"},
+    {"title": "Agents of Atlas (2019)"},
+    {"title": "War of the Realms: New Agents of Atlas"}
+  ]
+}

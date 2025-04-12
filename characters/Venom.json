@@ -1,0 +1,79 @@
+{
+  "name": "Venom",
+  "role": "Vanguard",
+  "health": 700,
+  "speed": "6.2 m/s",
+  "color_theme": "#B0BEC5",
+  "color_theme_secondary": "#DC2626",
+  "abilities": [
+    {
+      "name": "Claws / Bite",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "70",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Brutal attacks using claws, teeth, and symbiote mass."
+    },
+    {
+      "name": "Symbiote Pull",
+      "keybind": "RMB",
+      "type": "Secondary Fire / Control",
+      "damage": "20",
+      "range": "Medium Range Tendril (~18m)",
+      "cooldown": "8s",
+      "details": "Launches a tendril that pulls an enemy towards Venom."
+    },
+    {
+      "name": "Tendril Lunge",
+      "keybind": "LShift",
+      "type": "Movement / Attack",
+      "damage": "50",
+      "range": "15m Lunge",
+      "cooldown": "9s",
+      "details": "Lunges forward, damaging the first enemy hit."
+    },
+     {
+      "name": "Symbiote Slam",
+      "keybind": "E",
+      "type": "Utility / AoE",
+      "damage": "80 AoE Damage + Knockup?",
+      "range": "Short range AoE in front",
+      "cooldown": "10s",
+      "details": "Slams the ground with symbiote mass, damaging and disrupting enemies."
+    }
+  ],
+  "ultimate": {
+    "name": "Maximum Venom",
+    "keybind": "Q",
+    "damage": "N/A (Buff)",
+    "range": "Self Buff",
+    "effect": "Enters berserk state for 10s: Increased size, significantly increased damage, damage resistance, and faster movement.",
+    "charge_cost": "[Cost]",
+    "details": "Lethal protector mode fully engaged, enhancing all attributes."
+  },
+  "passives": [
+    {
+      "name": "Symbiote Healing",
+      "keybind": "Passive",
+      "details": "Regenerates health over time when not taking damage. Takes increased damage from fire-based attacks."
+    },
+    {
+      "name": "Wall Crawling",
+      "keybind": "Passive",
+      "details": "Can cling to and climb surfaces."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Spider-Man?",
+      "effect": "Symbiote Healing rate increased."
+    }
+  ],
+  "lore": "An alien symbiote bonded with a host (originally Spider-Man, most famously Eddie Brock). Venom possesses superhuman strength, durability, shapeshifting tendrils, and regenerative healing, often acting as a violent anti-hero.",
+  "comics": [
+    {"title": "Venom (various series, particularly by Cates/Stegman)"},
+    {"title": "Amazing Spider-Man #299/300 (First Full Appearance)"},
+    {"title": "Maximum Carnage"}
+  ]
+}

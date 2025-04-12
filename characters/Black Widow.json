@@ -1,0 +1,65 @@
+{
+  "name": "Black Widow",
+  "role": "Duelist",
+  "health": 400,
+  "speed": "6.5 m/s",
+  "color_theme": "#DC2626",
+  "color_theme_secondary": "#78909C",
+  "abilities": [
+    {
+      "name": "Widow's Kiss",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "15-25 per shot (SMG)",
+      "range": "Medium (Effective range ~20m)",
+      "cooldown": "N/A (Ammo: 30)",
+      "details": "Fires dual automatic submachine guns."
+    },
+    {
+      "name": "Grappling Hook",
+      "keybind": "RMB",
+      "type": "Mobility",
+      "damage": "N/A",
+      "range": "25m Range",
+      "cooldown": "6s",
+      "details": "Fires a grappling hook to quickly pull herself towards terrain."
+    },
+    {
+      "name": "Widow's Bite",
+      "keybind": "E",
+      "type": "Utility",
+      "damage": "60 damage + 20 DoT over 2s",
+      "range": "Short Range Cone / Projectile?",
+      "cooldown": "10s",
+      "details": "Releases an electric charge, damaging and briefly shocking enemies."
+    }
+  ],
+  "ultimate": {
+    "name": "Infiltrate",
+    "keybind": "Q",
+    "damage": "N/A",
+    "range": "Self",
+    "effect": "Grants invisibility, increased movement speed, and silent footsteps for 6 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Uses espionage skills to become unseen and reposition."
+  },
+  "passives": [
+    {
+      "name": "Acrobatics",
+      "keybind": "Passive",
+      "details": "Moves faster while crouching. Quieter footsteps generally."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Hawkeye / Winter Soldier",
+      "effect": "Using Grappling Hook near these allies grants them a brief speed boost."
+    }
+  ],
+  "lore": "Natasha Romanoff, a former KGB assassin turned S.H.I.E.L.D. agent and Avenger. She is a master spy, martial artist, and marksman, equipped with various gadgets.",
+  "comics": [
+    {"title": "Black Widow (various series, particularly by Waid/Samnee)"},
+    {"title": "Tales of Suspense #52 (First Appearance)"},
+    {"title": "Secret Avengers"}
+  ]
+}

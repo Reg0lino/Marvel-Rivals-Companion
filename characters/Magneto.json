@@ -1,0 +1,74 @@
+{
+  "name": "Magneto",
+  "role": "Strategist",
+  "health": 450,
+  "speed": "6 m/s (Ground) / 7.5 m/s (Flight)",
+  "color_theme": "#DC2626",
+  "color_theme_secondary": "#A855F7",
+  "abilities": [
+    {
+      "name": "Shrapnel Blast",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "40-60 (Depends on scrap collected)",
+      "range": "Medium Projectile Spread",
+      "cooldown": "N/A (Uses Scrap)",
+      "details": "Launches collected metal debris as damaging shrapnel."
+    },
+    {
+      "name": "Magnetic Shield / Attraction",
+      "keybind": "RMB (Hold/Tap?)",
+      "type": "Utility / Control",
+      "damage": "N/A",
+      "range": "Self / 10m Radius AoE Pull",
+      "cooldown": "10s (Attraction)",
+      "details": "Hold: Forms a temporary shield of scrap metal. Tap: Pulls nearby enemies slightly towards Magneto."
+    },
+    {
+      "name": "Flight",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A (Uses Energy Meter)",
+      "details": "Levitates using magnetic fields. Consumes energy."
+    },
+    {
+      "name": "Metal Bind",
+      "keybind": "E",
+      "type": "Utility / Control",
+      "damage": "15",
+      "range": "Targeted (~20m)",
+      "cooldown": "12s",
+      "details": "Traps a single enemy in metal restraints, rooting them for ~2 seconds."
+    }
+  ],
+  "ultimate": {
+    "name": "Magnetic Vortex",
+    "keybind": "Q",
+    "damage": "50 per second + High final pulse damage",
+    "range": "Large AoE (12m radius?)",
+    "effect": "Creates a powerful vortex of metal debris, pulling enemies in and damaging them over time, ending with a large burst.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes the full power of magnetism. Lasts several seconds."
+  },
+  "passives": [
+    {
+      "name": "Master of Magnetism",
+      "keybind": "Passive",
+      "details": "Automatically collects metal scrap from the environment or destroyed objects. Scrap is used for Shrapnel Blast and Magnetic Shield."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Scarlet Witch / Emma Frost",
+      "effect": "Metal Bind duration increased."
+    }
+  ],
+  "lore": "Max Eisenhardt, a survivor of the Holocaust, developed mutant powers to control magnetism. His experiences led him to believe mutants are superior and must rule humanity, often putting him at odds with his friend Charles Xavier.",
+  "comics": [
+    {"title": "Uncanny X-Men (various series)"},
+    {"title": "X-Men #1 (First Appearance)"},
+    {"title": "Magneto: Testament"}
+  ]
+}

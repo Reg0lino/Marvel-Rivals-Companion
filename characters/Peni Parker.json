@@ -1,0 +1,88 @@
+{
+  "name": "Peni Parker",
+  "role": "Vanguard",
+  "health": "150 (Pilot) + 500 (SP//dr Suit)",
+  "speed": "6 m/s (Pilot) / 7 m/s (Suit)",
+  "color_theme": "#F43F5E",
+  "color_theme_secondary": "#E5E5E5",
+  "abilities": [
+    {
+      "name": "Web Shot (Suit)",
+      "keybind": "LMB",
+      "type": "Primary Fire (Suit)",
+      "damage": "45",
+      "range": "Medium Projectile",
+      "cooldown": "N/A (Ammo: 10? Reloads?)",
+      "details": "Fires electrified webs from the SP//dr suit."
+    },
+    {
+      "name": "SP//dr Dash (Suit)",
+      "keybind": "RMB",
+      "type": "Movement (Suit)",
+      "damage": "20 impact damage",
+      "range": "8m Dash",
+      "cooldown": "6s (2 Charges?)",
+      "details": "Performs a quick dash, dealing minor damage to enemies hit."
+    },
+    {
+      "name": "Sync Rate (Suit)",
+      "keybind": "E",
+      "type": "Utility (Suit)",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "12s",
+      "details": "Temporarily boosts SP//dr's attack speed and damage for ~4 seconds."
+    },
+    {
+      "name": "Tranquilizer Dart (Pilot)",
+      "keybind": "LMB (Pilot)",
+      "type": "Primary Fire (Pilot)",
+      "damage": "5",
+      "range": "Short Projectile",
+      "cooldown": "N/A (Fires slowly)",
+      "details": "Fires a short-range dart that briefly slows enemies."
+    },
+    {
+        "name": "Call Mech (Pilot)",
+        "keybind": "E (Pilot)",
+        "type": "Utility (Pilot)",
+        "damage": "N/A",
+        "range": "Self",
+        "cooldown": "N/A (Uses Ultimate Charge)",
+        "details": "Begins calling down a new SP//dr suit using stored Ultimate charge."
+    }
+  ],
+  "ultimate": {
+    "name": "Eject / Mech Recall",
+    "keybind": "Q",
+    "damage": "150 AoE damage (on Eject/Landing)",
+    "range": "Self / Targeted Landing Spot",
+    "effect": "Builds charge over time. Pilot: Calls down SP//dr instantly dealing landing damage. Suit: Ejects Peni when suit health is low, dealing AoE damage.",
+    "charge_cost": "Passive Generation",
+    "details": "Core survival and re-engage mechanic."
+  },
+  "passives": [
+    {
+      "name": "SP//dr Suit",
+      "keybind": "Passive",
+      "details": "Peni pilots the SP//dr mech with its own health. When destroyed, Peni ejects. Gains Ult charge passively."
+    },
+    {
+      "name": "Wall Crawl (Suit)",
+      "keybind": "Passive",
+      "details": "SP//dr suit can crawl on walls and ceilings."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Spider-Man",
+      "effect": "Sync Rate duration increased."
+    }
+  ],
+  "lore": "From Earth-14512, Peni Parker is a young student who pilots the SP//dr suit, powered by a radioactive spider that shares a psychic link with her. She fights crime alongside her unique mech.",
+  "comics": [
+    {"title": "Edge of Spider-Verse #5 (First Appearance)"},
+    {"title": "Spider-Geddon"},
+    {"title": "Spider-Verse (various events)"}
+  ]
+}

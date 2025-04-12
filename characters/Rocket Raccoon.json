@@ -1,0 +1,74 @@
+{
+  "name": "Rocket Raccoon",
+  "role": "Duelist",
+  "health": 400,
+  "speed": "6.2 m/s",
+  "color_theme": "#FFA500",
+  "color_theme_secondary": "#3A02B6",
+  "abilities": [
+    {
+      "name": "Custom Blaster",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "50",
+      "range": "Medium Projectile",
+      "cooldown": "N/A (Ammo: 15?)",
+      "details": "Fires his heavily modified energy rifle."
+    },
+    {
+      "name": "Grav Grenade",
+      "keybind": "RMB",
+      "type": "Utility / Control",
+      "damage": "20 + Pull Effect",
+      "range": "Thrown (~20m) / 6m Pull Radius",
+      "cooldown": "10s",
+      "details": "Throws a device that activates after a short delay, pulling nearby enemies towards its center."
+    },
+    {
+      "name": "Jetpack Boost",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self (Vertical/Directional Boost)",
+      "cooldown": "N/A (Fuel Meter)",
+      "details": "Uses his jetpack for brief flight or directional boosts. Consumes fuel."
+    },
+     {
+      "name": "Deploy Turret?",
+      "keybind": "E",
+      "type": "Utility / Damage",
+      "damage": "[Turret Damage] per shot",
+      "range": "Placeable",
+      "cooldown": "15s",
+      "details": "Deploys a small automated turret that fires at nearby enemies. (Existence/details need confirmation for Rivals)."
+    }
+  ],
+  "ultimate": {
+    "name": "Hadron Enforcer",
+    "keybind": "Q",
+    "damage": "400 (Direct Hit) + 150 (AoE Splash)",
+    "range": "Long Range Projectile / Small AoE on impact",
+    "effect": "Fires an extremely powerful explosive projectile from an oversized weapon.",
+    "charge_cost": "[Cost]",
+    "details": "Brings out the big guns for massive burst damage."
+  },
+  "passives": [
+    {
+      "name": "Tinkerer",
+      "keybind": "Passive",
+      "details": "Faster interaction speed with objectives or deployables?"
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Groot / Star-Lord",
+      "effect": "Can ride on Groot's shoulder. Grav Grenade cooldown reduced when near Star-Lord."
+    }
+  ],
+  "lore": "Subject 89P13, a genetically and cybernetically enhanced raccoon from Halfworld. Rocket is a master tactician, engineer, and marksman, often serving with the Guardians of the Galaxy alongside his best friend Groot.",
+  "comics": [
+    {"title": "Guardians of the Galaxy (various series)"},
+    {"title": "Rocket Raccoon (various series)"},
+    {"title": "Marvel Preview #7 (First Appearance)"}
+  ]
+}

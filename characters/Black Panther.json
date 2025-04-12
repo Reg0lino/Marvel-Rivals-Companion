@@ -1,0 +1,70 @@
+{
+  "name": "Black Panther",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6.5 m/s",
+  "color_theme": "#9333EA",
+  "color_theme_secondary": "#B0BEC5",
+  "abilities": [
+    {
+      "name": "Vibranium Claws",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "40 per swipe (Combo)",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Performs a combo of quick melee strikes."
+    },
+    {
+      "name": "Kinetic Slash",
+      "keybind": "RMB",
+      "type": "Secondary Fire",
+      "damage": "60-120 (Based on stored energy)",
+      "range": "Short projectile (15m?)",
+      "cooldown": "1s (Uses stored energy)",
+      "details": "Releases stored kinetic energy. Damage depends on charge level shown on UI."
+    },
+    {
+      "name": "Panther's Leap",
+      "keybind": "E",
+      "type": "Mobility / Attack",
+      "damage": "40 (On hit)",
+      "range": "18m Leap Range",
+      "cooldown": "7s",
+      "details": "Leaps forward. Can target enemies to pounce on them, dealing damage."
+    }
+  ],
+  "ultimate": {
+    "name": "Bast's Fury",
+    "keybind": "Q",
+    "damage": "N/A (Buff)",
+    "range": "Self-buff",
+    "effect": "Increases attack speed, movement speed, and grants lifesteal on attacks for ~8 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Channels the power of the Panther God Bast, entering an empowered state."
+  },
+  "passives": [
+    {
+      "name": "Vibranium Suit",
+      "keybind": "Passive",
+      "details": "Stores kinetic energy (up to 100) when taking damage or dealing damage. Reduces incoming damage slightly."
+    },
+    {
+      "name": "Wall Climb",
+      "keybind": "Passive (Hold Space)",
+      "details": "Can climb vertical surfaces."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Storm",
+      "effect": "Bast's Fury also grants Storm a movement speed buff if nearby."
+    }
+  ],
+  "lore": "T'Challa, the king of the technologically advanced African nation Wakanda. His powers are granted by the heart-shaped herb and his mastery of the Vibranium suit, making him a formidable warrior and strategist.",
+  "comics": [
+    {"title": "Black Panther (various series, particularly by Priest, Coates)"},
+    {"title": "Fantastic Four #52 (First Appearance)"},
+    {"title": "Secret Wars (2015)"}
+  ]
+}

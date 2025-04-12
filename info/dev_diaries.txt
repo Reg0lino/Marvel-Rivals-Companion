@@ -1,0 +1,33 @@
+# Developer Diary Insights (Compiled April 12, 2025)
+
+*(Note: Based on official "Dev Vision" videos and announcements rather than distinct blog posts)*
+
+## Entry: Dev Vision Vol. 4 - Season 2 "Hellfire Gala" (Approx. April 2025)
+
+Hey Rivals,
+
+Creative Director Guangguang and Lead Designer Zhiyong shared insights into Season 2:
+
+*   **Season Theme & New Hero:** Season 2, "Hellfire Gala," introduces Emma Frost as a Vanguard. Her design focuses on diamond form durability and psionic control abilities. Ultron is confirmed for the mid-season update (Season 2.5).
+*   **New Map - Hellfire Gala: Krakoa:** This Domination map aims to capture the unique aesthetic of the Hellfire Gala on Krakoa, featuring botanical landscapes and dynamic elements.
+*   **Team-Up Philosophy:** Season 2 marks the first major adjustment to Team-Up abilities. New synergies are being introduced (like Emma Frost's Metal Projection) while some existing ones are being tweaked or removed based on performance and player feedback. This is intended to refresh strategies and keep the meta evolving. Examples include removing Doctor Strange from the Hulk team-up and adding Namor instead.
+*   **Addressing Player Feedback:**
+    *   **Battle Pass Progression:** The mission system is being revamped with the addition of weekly missions to help ensure active players can complete the Battle Pass by season's end. The reliance on hero-specific challenges is being reduced.
+    *   **PC Performance:** Acknowledging ongoing player reports, an experimental "Switch Shader Compilation Mode" is being introduced on PC to potentially reduce memory usage and stuttering, especially on lower-spec systems. Feedback is requested on this feature.
+    *   **Balance:** Based on data and feedback from Season 1 (mentioning the prevalence of "rage heroes combos" and high-sustain Strategist comps at higher ranks), significant balance changes were made for Season 2 to adjust outliers and improve hero diversity.
+*   **Future Season Structure:** Starting with Season 3, the team plans to shift to a two-month season format, aiming to release one new hero each month. Related systems will be adjusted accordingly, with more details coming before Season 3 launches.
+
+## Entry: Dev Vision Vol. 3 - Season 1.5 & Fantastic Four (Approx. Feb 2025)
+
+*   Introduced The Thing (Vanguard) and Human Torch (Duelist), completing the Fantastic Four's arrival for Season 1.
+*   Showcased the "Empire of Eternal Night: Central Park" map, tying into the Dracula theme.
+*   Briefly mentioned a feature to anonymize player names during hero selection and the start of matches to potentially reduce stream sniping or targeting (name revealed after a short period).
+
+## General Developer Communication Points (Ongoing):
+
+*   The team emphasizes actively monitoring player feedback through various channels (community forums, social media, support tickets).
+*   Backend analytics and internal playtesting are used alongside feedback to inform balance decisions.
+*   Commitment to addressing bugs and technical issues, with regular patches deployed.
+*   Focus on expanding the roster, map pool, and refining gameplay systems over time.
+
+*- Insights compiled from Marvel Rivals Dev Communications*

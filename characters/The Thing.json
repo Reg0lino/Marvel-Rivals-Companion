@@ -1,0 +1,74 @@
+{
+  "name": "The Thing",
+  "role": "Vanguard",
+  "health": 750,
+  "speed": "5.8 m/s",
+  "color_theme": "#F97316",
+  "color_theme_secondary": "#3B82F6",
+  "abilities": [
+    {
+      "name": "Rocky Punch",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "85",
+      "range": "Melee",
+      "cooldown": "N/A (Slow attack speed)",
+      "details": "Devastating punches with rock-like fists."
+    },
+    {
+      "name": "Ground Pound",
+      "keybind": "RMB",
+      "type": "Secondary Fire / AoE",
+      "damage": "70 + Short Stun/Knockup",
+      "range": "6m Radius AoE around self",
+      "cooldown": "9s",
+      "details": "Slams the ground, damaging and disrupting nearby enemies."
+    },
+    {
+      "name": "Yancy Street Charge",
+      "keybind": "LShift",
+      "type": "Movement / Attack",
+      "damage": "60 Impact Damage + Knockback",
+      "range": "15m Charge",
+      "cooldown": "10s",
+      "details": "Charges forward, damaging and knocking back the first enemy hit."
+    },
+    {
+        "name": "Bodyguard",
+        "keybind": "E",
+        "type": "Utility / Support",
+        "damage": "N/A",
+        "range": "Targeted Ally (~15m)",
+        "cooldown": "12s",
+        "details": "Intercepts a portion of damage dealt to a targeted ally for a few seconds."
+    }
+  ],
+  "ultimate": {
+    "name": "It's Clobberin' Time!",
+    "keybind": "Q",
+    "damage": "N/A (Buff)",
+    "range": "Self Buff",
+    "effect": "Enters an empowered state for 8s: Greatly increased damage resistance, faster attack speed, and punches cause small AoE shockwaves.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes his signature battle cry and full strength."
+  },
+  "passives": [
+    {
+      "name": "Rock Hide",
+      "keybind": "Passive",
+      "details": "High base damage resistance. Immune to minor knockback effects."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Mr. Fantastic / Invisible Woman / Human Torch",
+      "effect": "Bodyguard ability duration increased."
+    }
+  ],
+  "lore": "Ben Grimm, transformed by cosmic rays into the super-strong, rock-skinned Thing. Despite his monstrous appearance, he has a heart of gold and is the powerhouse of the Fantastic Four.",
+  "comics": [
+    {"title": "Fantastic Four (various series)"},
+    {"title": "The Fantastic Four #1 (First Appearance)"},
+    {"title": "Marvel Two-in-One"}
+  ]
+}

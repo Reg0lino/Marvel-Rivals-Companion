@@ -1,0 +1,62 @@
+# Balance Update - April 11, 2025 (Season 2 Launch - Patch 20250411)
+
+This update brings significant balance changes accompanying the launch of Season 2 and Emma Frost. The goals include integrating the new hero, addressing the prevalent Strategist meta from Season 1, adjusting under/overperforming heroes, and refreshing Team-Up synergies.
+
+*(Note: This summarizes key changes based on multiple sources covering the patch notes. For exact numbers, refer to official patch notes.)*
+
+## Hero Updates
+
+**Key Nerfs (Addressing High Sustain Meta):**
+
+*   **Cloak & Dagger:** Ultimate (Lightforce Cuffs) healing strips no longer stack. Ultimate cost increased.
+*   **Invisible Woman:** Ultimate cost increased.
+*   **Loki:** Ultimate cost increased.
+*   **Luna Snow:** Ultimate cost increased.
+*   **Doctor Strange:** Daggers of Denak damage decreased. Maelstrom of Madness conversion ratio reduced. Loses Gamma Maelstrom Team-Up with Hulk. *Gains 100 max HP as Team-Up Anchor.*
+*   **Captain America:** Base health reduced (675 -> 650). Living Legend shield value reduced (400 -> 350).
+*   **Magneto:** Ultimate (Meteor M) energy cost increased (3100 -> 3400).
+*   **Storm:** Targeted nerfs (details varied slightly by source, check official notes).
+*   **Magik:** Sword damage reduced.
+*   **Moon Knight:** Ultimate adjustments making it less immediately lethal.
+*   **Star-Lord:** Jetpack Dash cooldown increased, distance reduced. Ultimate damage boost reduced but adds bonus health effect for linked allies; energy cost increased.
+*   **The Thing:** Embattled Leap damage reduction decreased (30% -> 25%).
+
+**Key Buffs:**
+
+*   **Hulk:** Base movement speed increased. Indestructible Guard cooldown reduced. Incredible Leap minimum charge time decreased. *Gains Gamma Monstro Team-Up with Namor.*
+*   **Venom:** Continued buffs, including reduced ultimate cost.
+*   **Black Widow:** Upgrades to move kit.
+*   **Hawkeye:** Upgrades to move kit.
+*   **Iron Fist:** Bonus Max Health falloff rate slowed. Yat Jee Chung Kuen percentage damage increased. K'un-Lun Kick cooldown decreased.
+*   **Mister Fantastic:** Base health increased. Stretch Punch damage increased. Flexible Elongation now slows enemies and has reduced cooldown.
+*   **Peni Parker:** Base health increased (650 -> 750). Cyber-Web Cluster can now crit, movement penalty while firing reduced.
+*   **Rocket Raccoon:** Buffs to enhance capabilities.
+*   **Thor:** Buffs to improve performance relative to other Vanguards.
+*   **Hela:** Damage buffs noted by community analysis sites.
+
+**New Hero:**
+
+*   **Emma Frost:** Launched as a Vanguard. Initial balance subject to monitoring.
+
+## Team-Up Synergy Changes
+
+*   **New Team-Ups Added:**
+    *   Arcane Order (Dr. Strange [Anchor] / Scarlet Witch)
+    *   Stars Aligned (Captain America / Winter Soldier)
+    *   Metal Projection (Emma Frost [Anchor] / Magneto / Psylocke)
+*   **Existing Team-Ups Modified/Removed:**
+    *   Psylocke removed from Dimensional Shortcut (Magik/Psylocke/Black Panther).
+    *   Winter Soldier removed from Ammo Overload (Rocket/Punisher/Winter Soldier). *Loses Infinite Grit ability from Rocket team-up.*
+    *   Namor removed from Chilling Charisma (Luna/Namor/Jeff). *Loses Frozen Spawn ability from Luna team-up.*
+    *   Doctor Strange removed from Gamma Charge (Hulk/Dr. Strange), replaced by Namor (Gamma Monstro). *Dr. Strange loses Gamma Maelstrom.*
+    *   Psylocke loses Psionic Disc from Magik team-up.
+*   **Removed Team-Ups:**
+    *   Metallic Chaos (Scarlet Witch/Magneto)
+    *   Voltaic Union (Captain America/Thor/Storm)
+
+## General System Changes
+
+*   **Competitive Mode:** Map pool rotation implemented. Hero Bans extended to Gold rank. Rank reset applied.
+*   **Mission System:** Revamped with new weekly missions added. Balance of daily/challenge missions adjusted. Proportion of hero-specific missions reduced.
+
+*The developers will continue monitoring data and feedback throughout Season 2.*

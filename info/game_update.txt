@@ -1,0 +1,63 @@
+# Game Update - April 11, 2025 (Season 2 Launch - Patch 20250411)
+
+Welcome to Season 2: Hellfire Gala! This major update introduces a new hero, map, Battle Pass, features, balance changes, and fixes.
+
+## New Content
+
+*   **New Hero:** Emma Frost (Vanguard) added. Comes with "X-Revolution" and "Blue Sapphire" costumes available.
+*   **New Map:** Hellfire Gala: Krakoa (Domination mode) added to all modes and the Competitive map pool.
+*   **New Battle Pass:** Season 2 Battle Pass launched, featuring 10 new sets of hero costumes and other rewards.
+*   **New Season Event:** "Cerebro Database" active, rewarding the Mantis "Flora Maiden" costume.
+*   **New Bonus Reward:** Scarlet Witch "Chaos Gown" costume available after completing 9 matches this season.
+
+## Competitive Mode Updates
+
+*   **Rank Reset:** Player ranks reset with a 9-division demotion from their Season 1 end rank.
+*   **Hero Bans:** Pick/Ban phase now active in Gold, Platinum, Diamond, Grandmaster, and Legend ranks (previously Diamond+).
+*   **Map Rotation:** Hellfire Gala: Krakoa added. Yggsgard: Royal Palace and Tokyo 2099: Shin-Shibuya removed from the Competitive pool for this season. (All maps remain available in Quick Match/Custom).
+*   **Substitute Logic (Quick Match):** Victories for substitute players count normally; losses do not affect combat history/scoreboard.
+
+## Balance Changes
+
+*   **(See the dedicated "Balance Post" section for detailed hero and Team-Up adjustments).** Key highlights include nerfs to high-sustain Strategists' ultimate costs, buffs to Hulk and other underperforming heroes, and significant changes to Team-Up synergies.
+
+## New Features & General Updates
+
+*   **Gifting:** Players can now gift cosmetics to friends (likely requires premium currency).
+*   **Faction System:** New "Faction Recruit" and "Seeking Factions" system added. New faction emblems available. Faction reporting feature implemented.
+*   **Career Page:** Now supports selecting specific hero forms. Rank leaderboard display added.
+*   **Voice Chat:** Optimized push-to-talk interface prompt.
+*   **Custom Games:**
+    *   Spectators can temporarily exit and rejoin matches.
+    *   Room host transfer function added.
+    *   New "Tournament Room" option with added features (Pause function, Away status).
+*   **Mission System:** Revamped with added weekly missions and adjusted reward distribution.
+
+## Platform-Specific Updates
+
+*   **PC:**
+    *   Experimental "Switch Shader Compilation Mode" added in settings to potentially improve performance by changing when shaders compile. Devs note potential issues on lower-thread CPUs using FSR3 frame generation.
+    *   Added support for AMD FSR 4 (requires AMD Radeon RX 9000 series).
+*   **Console (PS5/Xbox Series X|S):**
+    *   Added new sensitivity settings (Vertical Dead Zone Sensitivity, Acceleration Delay).
+    *   Added Character Movement Stick Dead Zone settings.
+    *   Added Trigger Dead Zone settings.
+    *   New Player Initial Setting feature (reminder of default sensitivity/vibration/trigger effects).
+    *   Focus Memory optimization (remembers last screen position).
+
+## Bug Fixes & Optimizations
+
+*   **General:** Resolved numerous notification issues. Fixed various text errors. Fixed rare settings reset issue. Fixed spectator exit issue in Custom Games.
+*   **Maps & Modes:** Fixed terrain issues causing players to get stuck or clip. Resolved floating objects/collision errors. Addressed map-specific sound issues. Fixed rare spawn room transfer bug on Empire of Eternal Night: Midtown. Fixed Hydra Base issue where Rocket's revive could place teammates out of bounds.
+*   **Heroes:**
+    *   Fixed minor movement ability discrepancies at different frame rates (e.g., Dr. Strange, Magik).
+    *   Addressed issues with Wolverine's Team-Up ability activation and Feral Leap behavior (e.g., interaction with Hulk knockback, getting stuck).
+    *   Fixed incorrect resets/hit registration for Winter Soldier's ultimate.
+    *   Fixed Iron Man's ultimate sometimes passing through Hela's ultimate.
+    *   Resolved sync issues for Venom/Spider-Man after web-swinging/wall-crawling.
+    *   Fixed visibility issue for soul forms (Adam Warlock/Mantis/Star-Lord) in Wakanda map mist.
+    *   Fixed Squirrel Girl's ultimate getting stuck on terrain.
+    *   Fixed occasional damage loss on Rocket Raccoon's primary attack.
+    *   Fixed Loki transformation camera issues.
+
+*Refer to the official Marvel Rivals website for the complete, detailed patch notes.*

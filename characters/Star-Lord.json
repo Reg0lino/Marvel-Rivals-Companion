@@ -1,0 +1,74 @@
+{
+  "name": "Star-Lord",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6 m/s (Ground) / Fast (Jet Boots)",
+  "color_theme": "#DC2626",
+  "color_theme_secondary": "#3B82F6",
+  "abilities": [
+    {
+      "name": "Element Gun",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "45 (May vary slightly by element?)",
+      "range": "Medium Projectile",
+      "cooldown": "N/A (Ammo: 20?)",
+      "details": "Fires his signature Element Guns. Might have minor element effects."
+    },
+    {
+      "name": "Jet Boot Flight",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A (Fuel Meter)",
+      "details": "Uses his boot jets for sustained flight. Consumes fuel."
+    },
+    {
+      "name": "Gravity Mine",
+      "keybind": "E",
+      "type": "Utility / Control",
+      "damage": "30 + Pull Effect",
+      "range": "Thrown (~20m) / 6m Pull Radius",
+      "cooldown": "11s",
+      "details": "Throws a mine that activates after a short delay, pulling nearby enemies towards its center."
+    },
+     {
+      "name": "Combat Slide",
+      "keybind": "LShift",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Short Slide",
+      "cooldown": "4s",
+      "details": "Performs a quick slide, potentially allowing shooting while sliding."
+    }
+  ],
+  "ultimate": {
+    "name": "Awesome Mix Vol. X",
+    "keybind": "Q",
+    "damage": "N/A",
+    "range": "Large AoE Buff/Debuff",
+    "effect": "Plays music creating a field: Buffs ally movement speed & reload speed, slightly slows enemies.",
+    "charge_cost": "[Cost]",
+    "details": "Uses his mixtape to control the tempo of the fight. Lasts ~8 seconds."
+  },
+  "passives": [
+    {
+      "name": "Legendary Outlaw",
+      "keybind": "Passive",
+      "details": "Reloads faster while sliding or using Jet Boots."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Rocket Raccoon / Groot / Mantis",
+      "effect": "Gravity Mine pull strength increased."
+    }
+  ],
+  "lore": "Peter Quill, abducted from Earth as a child, became the spacefaring adventurer Star-Lord. Leader of the Guardians of the Galaxy, he relies on his wits, gadgets, and piloting skills.",
+  "comics": [
+    {"title": "Guardians of the Galaxy (various series, particularly Abnett/Lanning)"},
+    {"title": "Marvel Preview #4 (First Appearance)"},
+    {"title": "Annihilation"}
+  ]
+}

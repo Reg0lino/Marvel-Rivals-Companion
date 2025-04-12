@@ -1,0 +1,65 @@
+{
+  "name": "Captain America",
+  "role": "Vanguard",
+  "health": 600,
+  "speed": "6 m/s",
+  "color_theme": "#3B82F6",
+  "color_theme_secondary": "#EF4444",
+  "abilities": [
+    {
+      "name": "Shield Throw",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "70 (Ricochets up to 3 times)",
+      "range": "20m initial throw",
+      "cooldown": "N/A (Returns automatically)",
+      "details": "Throws his Vibranium shield, bouncing between nearby enemies."
+    },
+    {
+      "name": "Shield Block",
+      "keybind": "RMB",
+      "type": "Secondary Fire / Defense",
+      "damage": "N/A (Blocks up to [Value] damage?)",
+      "range": "Self",
+      "cooldown": "N/A (Hold/Toggle, Resource Meter?)",
+      "details": "Raises his shield, blocking incoming frontal damage. Reduces movement speed."
+    },
+    {
+      "name": "Shield Bash",
+      "keybind": "E",
+      "type": "Utility / Attack",
+      "damage": "50 + Short Stun/Knockback",
+      "range": "8m Charge",
+      "cooldown": "9s",
+      "details": "Charges forward a short distance, bashing the first enemy hit."
+    }
+  ],
+  "ultimate": {
+    "name": "Avengers Assemble!",
+    "keybind": "Q",
+    "damage": "N/A",
+    "range": "15m AoE Buff",
+    "effect": "Grants nearby allies +15% Damage Reduction and +10% Movement Speed for 6 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Inspires his team with a rallying cry, bolstering their defenses and speed."
+  },
+  "passives": [
+    {
+      "name": "Super Soldier",
+      "keybind": "Passive",
+      "details": "Enhanced strength slightly increases melee damage (if applicable). May have slightly faster base health regeneration."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Iron Man / Winter Soldier",
+      "effect": "When Captain America blocks damage, nearby specified allies gain a small amount of Ultimate charge."
+    }
+  ],
+  "lore": "Steve Rogers, a frail young man enhanced to the peak of human perfection by the Super-Soldier serum during World War II. He is a symbol of justice and liberty, leading the Avengers with his tactical brilliance and unwavering resolve.",
+  "comics": [
+    {"title": "Captain America (various series, particularly by Brubaker)"},
+    {"title": "Captain America Comics #1 (First Appearance)"},
+    {"title": "Civil War"}
+  ]
+}

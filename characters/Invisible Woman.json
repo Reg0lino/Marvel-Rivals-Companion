@@ -1,0 +1,64 @@
+{
+  "name": "Invisible Woman",
+  "role": "Strategist",
+  "health": 450,
+  "speed": "6 m/s",
+  "color_theme": "#60A5FA",
+  "color_theme_secondary": "#E0E0E0",
+  "abilities": [
+    {
+      "name": "Force Bolt",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "65",
+      "range": "Medium Projectile (30m?)",
+      "cooldown": "N/A",
+      "details": "Projects fast bolts of solid psionic force."
+    },
+    {
+      "name": "Force Field",
+      "keybind": "RMB",
+      "type": "Utility / Defense",
+      "damage": "N/A (Field HP: ~800)",
+      "range": "Target Ally/Self (~20m) or Placeable Area",
+      "cooldown": "9s",
+      "details": "Creates durable invisible force fields to block attacks. Can be placed on allies or ground."
+    },
+    {
+      "name": "Invisibility",
+      "keybind": "E",
+      "type": "Utility / Support",
+      "damage": "N/A",
+      "range": "Self / Target Ally (~15m)",
+      "cooldown": "10s",
+      "details": "Turns herself or a nearby ally invisible for ~5 seconds."
+    }
+  ],
+  "ultimate": {
+    "name": "Crushing Force",
+    "keybind": "Q",
+    "damage": "200 damage + 2s Stun",
+    "range": "Large targeted AoE circle (10m radius?)",
+    "effect": "Creates immense pressure fields in a target area, crushing and stunning enemies caught inside.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes the destructive potential of her force fields after a brief delay."
+  },
+  "passives": [
+    {
+      "name": "Second Sight",
+      "keybind": "Passive",
+      "details": "Invisible enemies near Sue are partially revealed to her."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Mr. Fantastic / Human Torch / Thing",
+      "effect": "Force Field cooldown reduced when near FF members."
+    }
+  ],
+  "lore": "Susan Storm Richards gained the power to become invisible and project powerful psionic force fields after cosmic ray exposure. She is a core member of the Fantastic Four.",
+  "comics": [
+    {"title": "Fantastic Four (various series)"},
+    {"title": "The Fantastic Four #1 (First Appearance)"}
+  ]
+}

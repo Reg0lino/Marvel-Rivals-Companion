@@ -1,0 +1,64 @@
+{
+  "name": "Mister Fantastic",
+  "role": "Strategist",
+  "health": 500,
+  "speed": "6 m/s",
+  "color_theme": "#3B82F6",
+  "color_theme_secondary": "#E0E0E0",
+  "abilities": [
+    {
+      "name": "Stretchy Punch",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "55",
+      "range": "Extended Melee (Up to 15m?)",
+      "cooldown": "N/A",
+      "details": "Stretches his arms for long-range melee attacks."
+    },
+    {
+      "name": "Elastic Grapple",
+      "keybind": "RMB",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Long Range Hook (~25m)",
+      "cooldown": "6s",
+      "details": "Stretches arm to grapple onto ledges or terrain for quick movement."
+    },
+    {
+      "name": "Bounce Pad / Containment",
+      "keybind": "E",
+      "type": "Utility / Support / Control",
+      "damage": "N/A",
+      "range": "Placeable",
+      "cooldown": "10s",
+      "details": "Shapes his body into a bouncy pad for allies or a temporary bubble to briefly contain an enemy."
+    }
+  ],
+  "ultimate": {
+    "name": "Think Tank",
+    "keybind": "Q",
+    "damage": "N/A",
+    "range": "AoE Buff/Debuff Zone",
+    "effect": "Deploys a device creating a field: Buffs ally ability cooldowns, slows enemy projectiles.",
+    "charge_cost": "[Cost]",
+    "details": "Utilizes a complex invention to control the battlefield strategically."
+  },
+  "passives": [
+    {
+      "name": "Malleable Body",
+      "keybind": "Passive",
+      "details": "High resistance to physical damage and knockback effects. Can flatten to fit under obstacles?"
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Invisible Woman / Human Torch / Thing",
+      "effect": "Ultimate ('Think Tank') duration slightly increased when near FF members."
+    }
+  ],
+  "lore": "Reed Richards, a scientific genius and leader of the Fantastic Four. Exposure to cosmic rays granted him the ability to stretch and reshape his body into almost any form.",
+  "comics": [
+    {"title": "Fantastic Four (various series)"},
+    {"title": "The Fantastic Four #1 (First Appearance)"}
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Iron Man",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6 m/s (Ground) / 8 m/s (Flight)",
+  "color_theme": "#DC2626",
+  "color_theme_secondary": "#FBBF2C",
+  "abilities": [
+    {
+      "name": "Repulsor Rays",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "25 per shot (Fires rapidly)",
+      "range": "Medium-Long Beam/Projectile (30m?)",
+      "cooldown": "N/A (Uses Energy)",
+      "details": "Fires energy beams from his palms. Consumes suit energy."
+    },
+    {
+      "name": "Flight",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A (Uses Energy)",
+      "details": "Engages suit thrusters for sustained flight. Consumes suit energy."
+    },
+    {
+      "name": "Micro-Missiles",
+      "keybind": "E",
+      "type": "Utility / Damage",
+      "damage": "20 per missile (Fires ~6)",
+      "range": "Medium Homing",
+      "cooldown": "9s",
+      "details": "Launches a volley of small guided missiles."
+    },
+    {
+      "name": "Boost Dash",
+      "keybind": "LShift",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Short Dash (Ground/Air)",
+      "cooldown": "5s",
+      "details": "Performs a quick directional boost using thrusters."
+    }
+  ],
+  "ultimate": {
+    "name": "Unibeam",
+    "keybind": "Q",
+    "damage": "~400 total over duration",
+    "range": "Long, Wide Beam (40m?)",
+    "effect": "Fires a powerful, sustained energy beam from his chest reactor.",
+    "charge_cost": "[Cost]",
+    "details": "The suit's most powerful directed energy weapon. Locks movement during cast."
+  },
+  "passives": [
+    {
+      "name": "Arc Reactor",
+      "keybind": "Passive",
+      "details": "Manages suit energy which regenerates over time. Used for Flight and Repulsors."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Captain America / War Machine",
+      "effect": "Micro-Missiles gain increased homing strength near specified allies."
+    }
+  ],
+  "lore": "Genius billionaire inventor Tony Stark, wounded and captured, created a powered suit of armor to escape and survive. He continuously upgrades his Iron Man technology to fight evil and protect the world.",
+  "comics": [
+    {"title": "Iron Man (various series, particularly Fraction/Larroca)"},
+    {"title": "Tales of Suspense #39 (First Appearance)"},
+    {"title": "Extremis"}
+  ]
+}

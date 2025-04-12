@@ -1,0 +1,79 @@
+{
+  "name": "Groot",
+  "role": "Vanguard",
+  "health": 700,
+  "speed": "6 m/s",
+  "color_theme": "#A16207",
+  "color_theme_secondary": "#84CC16",
+  "abilities": [
+    {
+      "name": "Vine Strike",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "70 per hit",
+      "range": "20m projectile",
+      "cooldown": "0.7s interval (Ammo: 8)",
+      "details": "Launches vines to attack enemies. Reloads after 8 shots."
+    },
+    {
+      "name": "Spore Bomb",
+      "keybind": "RMB",
+      "type": "Secondary Fire / Area Denial",
+      "damage": "55 (main explosion) + 10x6 (small spores)",
+      "range": "5m radius (main), 1.5m radius (small)",
+      "cooldown": "6s",
+      "details": "Throws an explosive Spore Bomb that splits into 6 smaller spores on impact."
+    },
+    {
+      "name": "Thornlash Wall",
+      "keybind": "LShift",
+      "type": "Utility / Damage",
+      "damage": "60 per 0.5s (when Awakened & striking)",
+      "range": "15m placement distance",
+      "cooldown": "6s per charge (2 charges, Max 3 active)",
+      "details": "Grow a wall (250 HP). Awakened: Strikes enemies attacked near it."
+    },
+    {
+      "name": "Ironwood Wall",
+      "keybind": "E",
+      "type": "Utility / Defense / Support",
+      "damage": "N/A",
+      "range": "10m placement distance",
+      "cooldown": "8s",
+      "details": "Grow a durable wall (700 HP). Awakened: Grants Groot Bonus Health (40/s up to 250) when allies deal damage near it."
+    }
+  ],
+  "ultimate": {
+    "name": "Strangling Prison",
+    "keybind": "Q",
+    "damage": "10 (impact) + 70 (field) + 40/s (imprisoned)",
+    "range": "8m radius AoE",
+    "effect": "Pulls enemies to center & Imprisons for 3.5s.",
+    "charge_cost": "[Cost]",
+    "details": "Fires a massive vine projectile creating an imprisoning field."
+  },
+  "passives": [
+    {
+      "name": "Flora Colossus",
+      "keybind": "Passive",
+      "details": "Walls near Groot 'Awaken', activating bonus effects. Range: 20m radius."
+    },
+    {
+      "name": "Furious Flora",
+      "keybind": "V (Melee)",
+      "details": "Melee combo (~30/30/50 damage). Third strike launches enemy airborne slightly."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Rocket Raccoon / Jeff",
+      "effect": "They can ride on Groot's shoulders gaining Damage Reduction. +150 Max Health for Groot."
+    }
+  ],
+  "lore": "A Flora Colossus hailing from Planet X. Groot is a loyal guardian with incredible regenerative abilities and control over plant life. Often seen with his companion, Rocket Raccoon.",
+  "comics": [
+    {"title": "Annihilation: Conquest - Star-Lord"},
+    {"title": "Guardians of the Galaxy (2008)"},
+    {"title": "Groot (2015)"}
+  ]
+}

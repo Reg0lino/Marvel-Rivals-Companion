@@ -1,0 +1,65 @@
+{
+  "name": "Hulk",
+  "role": "Vanguard",
+  "health": 800,
+  "speed": "6 m/s (Increases with Rage)",
+  "color_theme": "#16A34A",
+  "color_theme_secondary": "#A855F7",
+  "abilities": [
+    {
+      "name": "Smash",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "80-100 (Increases with Rage)",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Powerful melee punches. Attack speed increases slightly with Rage."
+    },
+    {
+      "name": "Ground Slam",
+      "keybind": "RMB",
+      "type": "Secondary Fire / AoE Control",
+      "damage": "60 + Short Stun/Knockup",
+      "range": "5m Radius AoE around self",
+      "cooldown": "8s",
+      "details": "Slams the ground, damaging and disrupting nearby enemies."
+    },
+    {
+      "name": "Gamma Leap",
+      "keybind": "LShift",
+      "type": "Mobility",
+      "damage": "40 Landing Damage",
+      "range": "Long Leap (Up to 30m?)",
+      "cooldown": "10s",
+      "details": "Performs a massive leap. Deals damage upon landing."
+    }
+  ],
+  "ultimate": {
+    "name": "Worldbreaker",
+    "keybind": "Q",
+    "damage": "N/A (Buff)",
+    "range": "Self Buff",
+    "effect": "Enters maximum rage: Massively increased Damage, Damage Reduction, Speed, and Health Regen for 10 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes the Hulk's full, uncontrollable power temporarily."
+  },
+  "passives": [
+    {
+      "name": "Rage",
+      "keybind": "Passive",
+      "details": "Builds Rage meter (up to 100) by dealing and taking damage. Rage increases damage dealt and movement speed, and provides passive damage reduction."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Black Widow",
+      "effect": "Gamma Leap cooldown reduced when landing near Black Widow."
+    }
+  ],
+  "lore": "Dr. Bruce Banner, exposed to gamma radiation, transforms into the incredibly strong and nigh-indestructible Hulk when angered or stressed. The angrier he gets, the stronger he becomes.",
+  "comics": [
+    {"title": "Incredible Hulk (various series)"},
+    {"title": "The Incredible Hulk #1 (First Appearance)"},
+    {"title": "Planet Hulk / World War Hulk"}
+  ]
+}

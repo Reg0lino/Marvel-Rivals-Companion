@@ -1,0 +1,74 @@
+{
+  "name": "Storm",
+  "role": "Strategist",
+  "health": 450,
+  "speed": "6 m/s (Ground) / 7.5 m/s (Flight)",
+  "color_theme": "#FDFDFD",
+  "color_theme_secondary": "#3A02B6",
+  "abilities": [
+    {
+      "name": "Lightning Bolt",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "60",
+      "range": "Long Range Hitscan/Projectile",
+      "cooldown": "N/A (Slight charge time?)",
+      "details": "Calls down precise bolts of lightning."
+    },
+    {
+      "name": "Chain Lightning",
+      "keybind": "RMB",
+      "type": "Secondary Fire / AoE",
+      "damage": "45 (Chains up to 3 targets)",
+      "range": "Medium Range / Short Chain Distance",
+      "cooldown": "8s",
+      "details": "Unleashes lightning that arcs between nearby enemies."
+    },
+    {
+      "name": "Flight",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A (Toggle/Resource?)",
+      "details": "Summons wind currents to allow flight."
+    },
+    {
+        "name": "Wind Gust",
+        "keybind": "E",
+        "type": "Utility / Control",
+        "damage": "15 + Knockback",
+        "range": "Short Cone AoE",
+        "cooldown": "10s",
+        "details": "Creates a gust of wind pushing enemies back."
+    }
+  ],
+  "ultimate": {
+    "name": "Monsoon",
+    "keybind": "Q",
+    "damage": "~40 per second (Lightning/Wind) + Final Burst?",
+    "range": "Large Stationary AoE (15m radius?)",
+    "effect": "Creates a powerful storm at a target location with high winds, rain, and lightning strikes. Slows enemies inside.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes the full fury of the elements over several seconds."
+  },
+  "passives": [
+    {
+      "name": "Goddess of the Elements",
+      "keybind": "Passive",
+      "details": "Resistant to environmental effects. May slightly empower abilities when used consecutively."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Black Panther / Wolverine",
+      "effect": "Chain Lightning can chain to one additional target."
+    }
+  ],
+  "lore": "Ororo Munroe, a mutant with the ability to control all forms of weather over vast areas. Revered as a goddess in parts of Africa before joining the X-Men, she is a powerful leader and experienced hero.",
+  "comics": [
+    {"title": "Uncanny X-Men (various series)"},
+    {"title": "Giant-Size X-Men #1 (First X-Men Appearance)"},
+    {"title": "Storm (various limited series)"}
+  ]
+}

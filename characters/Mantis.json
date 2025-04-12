@@ -1,0 +1,70 @@
+{
+  "name": "Mantis",
+  "role": "Strategist",
+  "health": 400,
+  "speed": "6 m/s",
+  "color_theme": "#84CC16",
+  "color_theme_secondary": "#FDE047",
+  "abilities": [
+    {
+      "name": "Weak Point Strike",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "40 (Applies vulnerability?)",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Precise martial arts strikes that may briefly increase damage taken by the enemy."
+    },
+    {
+      "name": "Empathic Heal",
+      "keybind": "RMB",
+      "type": "Secondary Fire / Support",
+      "damage": "N/A (Heals ~60 over 3s?)",
+      "range": "Targeted Ally (~20m)",
+      "cooldown": "7s",
+      "details": "Soothes an ally's mind, providing healing over time."
+    },
+    {
+      "name": "Sleep Spores",
+      "keybind": "E",
+      "type": "Utility / Control",
+      "damage": "N/A",
+      "range": "Short Cone AoE",
+      "cooldown": "12s",
+      "details": "Releases spores in front of her, putting affected enemies to sleep for ~3 seconds (damage wakes)."
+    }
+  ],
+  "ultimate": {
+    "name": "Life Force Transfer",
+    "keybind": "Q",
+    "damage": "N/A",
+    "range": "Large AoE Heal/Buff around Mantis",
+    "effect": "Massively heals allies (~250 health?) and grants them a temporary damage buff (~15%?) for 5 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes a powerful wave of empathic, life-giving energy."
+  },
+  "passives": [
+    {
+      "name": "Empathy",
+      "keybind": "Passive",
+      "details": "Can sense nearby enemies through walls when they use abilities or take damage (brief pulse)."
+    },
+     {
+      "name": "Precognition",
+      "keybind": "Passive",
+      "details": "Slightly increased dodge chance or brief warning before major attacks hit?"
+     }
+  ],
+  "teamups": [
+    {
+      "partner": "Star-Lord / Groot",
+      "effect": "Empathic Heal provides a slightly stronger heal-over-time effect to specified allies."
+    }
+  ],
+  "lore": "An empath with precognitive abilities and advanced martial arts skills. Raised by the Kree Priests of Pama, Mantis has connections to the Cotati and has been destined to become the Celestial Madonna.",
+  "comics": [
+    {"title": "Avengers #112 (First Appearance)"},
+    {"title": "Guardians of the Galaxy (various series)"},
+    {"title": "Celestial Madonna Saga (in Avengers)"}
+  ]
+}

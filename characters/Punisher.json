@@ -1,0 +1,74 @@
+{
+  "name": "Punisher",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6 m/s",
+  "image_path": "images/punisher.png",
+  "color_theme": "#A9A9A9",
+  "abilities": [
+    {
+      "name": "Assault Rifle",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "28-35 per shot",
+      "range": "Medium-Long (Hitscan?)",
+      "cooldown": "N/A (Ammo: 30)",
+      "details": "Fires a standard assault rifle."
+    },
+    {
+      "name": "Combat Roll",
+      "keybind": "LShift",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Short Dodge Roll",
+      "cooldown": "5s",
+      "details": "Performs an evasive roll, potentially auto-reloading weapon."
+    },
+    {
+      "name": "Grenade Toss",
+      "keybind": "E",
+      "type": "Utility / Damage",
+      "damage": "100 AoE",
+      "range": "Medium Arc",
+      "cooldown": "10s",
+      "details": "Throws a standard fragmentation grenade."
+    },
+    {
+        "name": "Aim Down Sights",
+        "keybind": "RMB",
+        "type": "Utility",
+        "damage": "N/A",
+        "range": "Self",
+        "cooldown": "N/A (Toggle/Hold)",
+        "details": "Aims down sights for increased accuracy and slightly reduced spread."
+    }
+  ],
+  "ultimate": {
+    "name": "War Zone",
+    "keybind": "Q",
+    "damage": "N/A (Buff)",
+    "range": "Self Buff",
+    "effect": "Significantly increases reload speed, fire rate, and grants unlimited ammo for ~8 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes his full weapon handling expertise."
+  },
+  "passives": [
+    {
+      "name": "Tactical Reload",
+      "keybind": "Passive",
+      "details": "Slightly faster base reload speed than average."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Moon Knight?",
+      "effect": "Grenade cooldown reduced."
+    }
+  ],
+  "lore": "Frank Castle, a former Marine whose family was killed by the mob. He wages a brutal one-man war on crime using his military expertise and vast arsenal, employing lethal force without hesitation.",
+  "comics": [
+    {"title": "The Punisher (various series, particularly by Ennis)"},
+    {"title": "The Amazing Spider-Man #129 (First Appearance)"},
+    {"title": "Punisher MAX"}
+  ]
+}

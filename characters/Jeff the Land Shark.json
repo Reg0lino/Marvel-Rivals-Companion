@@ -1,0 +1,65 @@
+{
+  "name": "Jeff the Land Shark",
+  "role": "Duelist",
+  "health": 350,
+  "speed": "7 m/s",
+  "color_theme": "#D946EF",
+  "color_theme_secondary": "#5EEAD4",
+  "abilities": [
+    {
+      "name": "Bite",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "60",
+      "range": "Melee",
+      "cooldown": "N/A (Fast attack speed)",
+      "details": "Chomps enemies with surprising force."
+    },
+    {
+      "name": "Land Swim",
+      "keybind": "RMB",
+      "type": "Movement / Stealth",
+      "damage": "N/A",
+      "range": "Self (Duration ~3s)",
+      "cooldown": "8s",
+      "details": "Burrows into the ground, becoming untargetable and moving slightly faster. Cannot attack while swimming."
+    },
+    {
+      "name": "Surprise Attack",
+      "keybind": "E",
+      "type": "Attack / Utility",
+      "damage": "80",
+      "range": "Short lunge from ground (Requires Land Swim?)",
+      "cooldown": "10s",
+      "details": "Leaps out from the ground (or regular surface?) to deliver a powerful bite."
+    }
+  ],
+  "ultimate": {
+    "name": "Feeding Frenzy",
+    "keybind": "Q",
+    "damage": "Increased Bite Damage & Speed",
+    "range": "Self Buff",
+    "effect": "Enters a frenzy for ~6 seconds, significantly increasing attack speed and bite damage.",
+    "charge_cost": "[Cost]",
+    "details": "Goes into a hyperactive state of biting."
+  },
+  "passives": [
+    {
+      "name": "Adorable Menace",
+      "keybind": "Passive",
+      "details": "Small hitbox. Can potentially fit through small environmental gaps."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Groot / Gwenpool / Deadpool",
+      "effect": "Can ride on Groot's shoulder. Land Swim duration increased near specific allies?"
+    }
+  ],
+  "lore": "An infant land shark adopted by Gwenpool (and later Deadpool). Jeff is deceptively cute and capable of swimming through solid surfaces.",
+  "comics": [
+    {"title": "West Coast Avengers (2018)"},
+    {"title": "Gwenpool Strikes Back"},
+    {"title": "Deadpool (various)"}
+  ]
+}

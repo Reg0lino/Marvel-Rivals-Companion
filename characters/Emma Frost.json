@@ -1,0 +1,92 @@
+{
+  "name": "Emma Frost",
+  "role": "Vanguard",
+  "health": 550,
+  "speed": "6 m/s",
+  "color_theme": "#E0F2FE",
+  "color_theme_secondary": "#A7D7F9",
+  "abilities": [
+    {
+      "name": "Telepathic Pulse (Human)",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "Ramps up (~25 -> ~110 per tick) on single target over 2s",
+      "range": "25m beam",
+      "cooldown": "N/A (Uses Energy Meter)",
+      "details": "Continuous psionic beam. Damage increases with focus duration. Consumes energy."
+    },
+    {
+      "name": "Mind's Aegis (Human)",
+      "keybind": "RMB",
+      "type": "Utility",
+      "damage": "N/A (Shield HP: 500)",
+      "range": "20m placement",
+      "cooldown": "8s",
+      "details": "Projects a floating psionic shield barrier."
+    },
+    {
+      "name": "Psychic Spear (Human)",
+      "keybind": "E",
+      "type": "Utility / Debuff",
+      "damage": "20 (hit) + Damage Transfer + 120 (shatter)",
+      "range": "Medium projectile",
+      "cooldown": "11s",
+      "details": "Hit creates a linked crystal (~200 HP). Damaging crystal damages enemy. Shattering deals bonus burst."
+    },
+    {
+      "name": "Faceted Fury (Diamond)",
+      "keybind": "LMB",
+      "type": "Primary Fire (Diamond)",
+      "damage": "55 per punch",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Sequence of three melee punches."
+    },
+    {
+      "name": "Crystal Kick (Diamond)",
+      "keybind": "RMB",
+      "type": "Secondary Fire (Diamond)",
+      "damage": "45 + Bonus Wall Slam (~90)",
+      "range": "Melee / Knockback",
+      "cooldown": "7s",
+      "details": "Kicks enemies back, deals extra damage on wall impact."
+    },
+    {
+      "name": "Carbon Crush (Diamond)",
+      "keybind": "E",
+      "type": "Utility (Diamond)",
+      "damage": "90",
+      "range": "6m lunge",
+      "cooldown": "12s",
+      "details": "Lunge, grab, slam enemy, interrupting abilities. Brief stun on landing."
+    }
+  ],
+  "ultimate": {
+    "name": "Psionic Seduction",
+    "keybind": "Q",
+    "damage": "Human: 100 / Diamond: 180",
+    "range": "Large Cone AoE",
+    "effect": "Human: Stun (1s), Ult Lock (5s), Compel (2.5s). Diamond: Stronger Stun (1.8s).",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes psionic wave. Effects differ based on form upon activation."
+  },
+  "passives": [
+    {
+      "name": "Psychic Shift",
+      "keybind": "LShift",
+      "details": "Switch between Human and Diamond forms (1s cooldown). Diamond grants ~55% Damage Reduction & Unstoppable."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Psylocke / Magneto",
+      "effect": "Grants allies illusion/projection abilities. +100 Max Health for Emma."
+    }
+  ],
+  "lore": "Once the White Queen of the Hellfire Club, Emma Frost is an immensely powerful telepath and possesses the ability to transform her body into organic diamond. A complex figure, often switching between hero and anti-hero.",
+  "comics": [
+    {"title": "Astonishing X-Men (2004)"},
+    {"title": "New X-Men (2001)"},
+    {"title": "Uncanny X-Men (various eras)"}
+  ]
+}

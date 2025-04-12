@@ -1,0 +1,70 @@
+{
+  "name": "Cloak and Dagger",
+  "role": "Strategist",
+  "health": 400,
+  "speed": "6 m/s",
+  "color_theme": "#F8FAFC",
+  "color_theme_secondary": "#FDE047",
+  "abilities": [
+    {
+      "name": "Lightforce Daggers (Dagger)",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "50 per dagger (Fires 2)",
+      "range": "25m Projectile",
+      "cooldown": "N/A (Uses Energy/Charges?)",
+      "details": "Dagger throws daggers of pure light energy."
+    },
+    {
+      "name": "Darkforce Void (Cloak)",
+      "keybind": "RMB",
+      "type": "Secondary Fire / Area Denial",
+      "damage": "20 per 0.5s (inside void)",
+      "range": "Placeable 8m radius AoE / Can enter/exit",
+      "cooldown": "10s",
+      "details": "Cloak creates a damaging portal to the Darkforce Dimension. Cloak can enter/exit it for brief intangibility."
+    },
+    {
+      "name": "Twin Teleport",
+      "keybind": "E",
+      "type": "Utility / Mobility",
+      "damage": "N/A",
+      "range": "15m Teleport Range",
+      "cooldown": "12s",
+      "details": "Cloak envelops Dagger, teleporting both a short distance instantly."
+    }
+  ],
+  "ultimate": {
+    "name": "Light and Dark Bomb",
+    "keybind": "Q",
+    "damage": "300 AoE Damage + Blind",
+    "range": "10m Radius AoE",
+    "effect": "Massive damage in an area and applies a Blind effect for 2 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Combines Lightforce and Darkforce for a devastating area attack after a short channel."
+  },
+  "passives": [
+    {
+      "name": "Symbiotic Link",
+      "keybind": "Passive",
+      "details": "Cloak and Dagger gain bonus stats (e.g., cooldown reduction, minor damage buff) when within ~10m of each other."
+    },
+    {
+      "name": "Lightforce Healing (Dagger)",
+      "keybind": "Passive",
+      "details": "Dagger slowly heals nearby allies (within ~8m) for a small amount per second when her health is high."
+     }
+  ],
+  "teamups": [
+    {
+      "partner": "Doctor Strange / Scarlet Witch",
+      "effect": "Light and Dark Bomb's radius is increased."
+    }
+  ],
+  "lore": "Tyrone Johnson (Cloak) and Tandy Bowen (Dagger) are two teenagers who gained superpowers after being subjected to experimental drugs. Cloak is linked to the Darkforce Dimension, allowing teleportation and intangibility, while Dagger generates 'living light' daggers and can heal. They share a deep, sometimes codependent bond.",
+  "comics": [
+    {"title": "Peter Parker, the Spectacular Spider-Man #64 (First Appearance)"},
+    {"title": "Cloak and Dagger (various series)"},
+    {"title": "Runaways (Vol. 2/3 - appearances)"}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Wolverine",
+  "role": "Duelist",
+  "health": 500,
+  "speed": "6.2 m/s",
+  "color_theme": "#FBBF2C",
+  "color_theme_secondary": "#3B82F6",
+  "abilities": [
+    {
+      "name": "Adamantium Claws",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "50 + 10 Bleed DoT over 2s",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Slashes viciously with his indestructible claws, applying a bleed effect."
+    },
+    {
+      "name": "Berserker Barrage",
+      "keybind": "RMB",
+      "type": "Secondary Fire / AoE",
+      "damage": "30 per hit (Rapid Hits)",
+      "range": "Short Cone AoE",
+      "cooldown": "8s",
+      "details": "Unleashes a flurry of rapid claw strikes in front of him."
+    },
+    {
+      "name": "Feral Lunge",
+      "keybind": "LShift",
+      "type": "Movement / Attack",
+      "damage": "60",
+      "range": "12m Lunge",
+      "cooldown": "7s",
+      "details": "Leaps towards an enemy with claws extended, dealing damage on impact."
+    }
+  ],
+  "ultimate": {
+    "name": "Berserker Rage",
+    "keybind": "Q",
+    "damage": "N/A (Buff)",
+    "range": "Self Buff",
+    "effect": "Enters a feral rage for 8s: Greatly increased attack speed, damage, and lifesteal. Healing Factor rate doubled.",
+    "charge_cost": "[Cost]",
+    "details": "Goes into his iconic, uncontrollable rage state."
+  },
+  "passives": [
+    {
+      "name": "Healing Factor",
+      "keybind": "Passive",
+      "details": "Rapidly regenerates health (~15 HP/s?) when not taking damage for a few seconds."
+    },
+    {
+      "name": "Adamantium Skeleton",
+      "keybind": "Passive",
+      "details": "Provides a base level of passive damage reduction (~10%?)."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Storm / Psylocke / Captain America?",
+      "effect": "Berserker Barrage cooldown reduced."
+    }
+  ],
+  "lore": "Logan, a mutant with retractable bone claws, enhanced senses, and a powerful healing factor. His skeleton was later bonded with the indestructible metal Adamantium. Wolverine is a gruff, often solitary member of the X-Men and Avengers.",
+  "comics": [
+    {"title": "Uncanny X-Men (various series, particularly Claremont run)"},
+    {"title": "Wolverine (various series, particularly Miller/Claremont limited series)"},
+    {"title": "Incredible Hulk #181 (First Full Appearance)"}
+  ]
+}

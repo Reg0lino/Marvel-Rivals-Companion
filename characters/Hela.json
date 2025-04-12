@@ -1,0 +1,65 @@
+{
+  "name": "Hela",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6 m/s",
+  "color_theme": "#10B981",
+  "color_theme_secondary": "#FBBF2C",
+  "abilities": [
+    {
+      "name": "Necro Swords",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "60 per sword (Fires quickly)",
+      "range": "Medium Projectile (25m?)",
+      "cooldown": "N/A",
+      "details": "Throws summoned swords forged from darkness."
+    },
+    {
+      "name": "Nightsword Dash",
+      "keybind": "RMB",
+      "type": "Mobility / Attack",
+      "damage": "70",
+      "range": "12m Dash",
+      "cooldown": "7s",
+      "details": "Dashes forward, striking enemies passed through with a larger blade."
+    },
+    {
+      "name": "Spiral Blades",
+      "keybind": "E",
+      "type": "Utility / AoE",
+      "damage": "30 per blade (Multiple blades)",
+      "range": "6m Radius AoE around self",
+      "cooldown": "10s",
+      "details": "Summons blades that spiral outwards, damaging nearby enemies."
+    }
+  ],
+  "ultimate": {
+    "name": "Goddess of Death",
+    "keybind": "Q",
+    "damage": "150 per large spike",
+    "range": "Large targeted Ground AoE (Multiple spikes)",
+    "effect": "Summons massive blades erupting from the ground in a target area.",
+    "charge_cost": "[Cost]",
+    "details": "Impales a large area after a brief delay, dealing high burst damage."
+  },
+  "passives": [
+    {
+      "name": "Death Touch",
+      "keybind": "Passive",
+      "details": "Damaging enemies applies a stacking 'Soul Decay' debuff, slightly reducing their healing received."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Loki / Thor",
+      "effect": "Spiral Blades have increased range when activated near specified allies."
+    }
+  ],
+  "lore": "The Asgardian Goddess of Death and ruler of Hel and Niflheim. Hela Odinsdottir commands legions of the dead and wields powerful dark magic and summoned weaponry.",
+  "comics": [
+    {"title": "Journey into Mystery #102 (First Appearance)"},
+    {"title": "Thor (various series)"},
+    {"title": "Angela: Asgard's Assassin"}
+  ]
+}

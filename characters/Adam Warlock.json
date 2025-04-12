@@ -1,0 +1,74 @@
+{
+  "name": "Adam Warlock",
+  "role": "Strategist",
+  "health": 450,
+  "speed": "6 m/s",
+  "color_theme": "#FBBF2C",
+  "color_theme_secondary": "#FFA500",
+  "abilities": [
+    {
+      "name": "Soul Beam",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "45-90 (Ramps up)",
+      "range": "30m",
+      "cooldown": "N/A (Energy Meter)",
+      "details": "Fires a beam that increases in damage the longer it hits a single target. Consumes energy."
+    },
+    {
+      "name": "Quantum Leap",
+      "keybind": "RMB",
+      "type": "Mobility / Utility",
+      "damage": "N/A",
+      "range": "15m Teleport",
+      "cooldown": "8s",
+      "details": "Teleports forward instantly. Can store 2 charges."
+    },
+    {
+      "name": "Soul Cocoon",
+      "keybind": "E",
+      "type": "Support / Utility",
+      "damage": "N/A (Revives)",
+      "range": "Target Ally (within ~15m?)",
+      "cooldown": "18s",
+      "details": "Throws a cocoon projectile at a downed ally. After a delay, the ally revives with partial health."
+    },
+    {
+      "name": "Metamorphosis",
+      "keybind": "LShift",
+      "type": "Utility / Buff",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "12s",
+      "details": "Briefly transforms, gaining damage reduction and healing over time."
+    }
+  ],
+  "ultimate": {
+    "name": "Karmic Blast",
+    "keybind": "Q",
+    "damage": "250",
+    "range": "Large Cone AoE (30m long, ~8m wide?)",
+    "effect": "Deals damage and applies a 'Soul Curse' debuff (increased damage taken).",
+    "charge_cost": "[Cost]",
+    "details": "Charges briefly then unleashes a powerful wave of cosmic energy."
+  },
+  "passives": [
+    {
+      "name": "Cosmic Energy",
+      "keybind": "Passive",
+      "details": "Manages the energy resource used by Soul Beam."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Scarlet Witch",
+      "effect": "Soul Curse inflicted by Karmic Blast deals increased damage."
+    }
+  ],
+  "lore": "Artificially created to be the perfect being, Adam Warlock possesses vast cosmic powers derived from the Soul Gem (in some continuities) and his unique physiology. He often plays a pivotal role in cosmic events.",
+  "comics": [
+    {"title": "Infinity Gauntlet"},
+    {"title": "Warlock and the Infinity Watch"},
+    {"title": "Annihilation: Conquest"}
+  ]
+}

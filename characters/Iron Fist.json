@@ -1,0 +1,65 @@
+{
+  "name": "Iron Fist",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6.5 m/s",
+  "color_theme": "#15803D",
+  "color_theme_secondary": "#FACC15",
+  "abilities": [
+    {
+      "name": "Martial Arts",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "35/35/50 (Combo)",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Performs a three-hit combo. Generates Chi on hit."
+    },
+    {
+      "name": "Chi Strike",
+      "keybind": "RMB",
+      "type": "Secondary Fire",
+      "damage": "80",
+      "range": "Short Range Cone / Empowered Melee",
+      "cooldown": "6s (Consumes Chi)",
+      "details": "Focuses chi for a powerful forward strike. Requires Chi."
+    },
+    {
+      "name": "Dragon Kick",
+      "keybind": "E",
+      "type": "Mobility / Attack",
+      "damage": "60 + Knockback",
+      "range": "10m Dash/Kick",
+      "cooldown": "8s",
+      "details": "Dashes forward with a powerful chi-infused kick."
+    }
+  ],
+  "ultimate": {
+    "name": "The Iron Fist",
+    "keybind": "Q",
+    "damage": "350",
+    "range": "Short Cone AoE / Punch",
+    "effect": "Charges his fist with immense chi for a devastating forward punch after a short channel.",
+    "charge_cost": "[Cost]",
+    "details": "Summons the full power of the Iron Fist of K'un-Lun."
+  },
+  "passives": [
+    {
+      "name": "Chi Focus",
+      "keybind": "Passive",
+      "details": "Generates Chi (up to 100) by landing Martial Arts hits. Chi Strike consumes Chi."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Luke Cage / Shang-Chi?",
+      "effect": "Chi generation rate increased when near specified allies."
+    }
+  ],
+  "lore": "Danny Rand (or potentially Lin Lie in this game), the latest in a long line of warriors to wield the mystical power of the Iron Fist, gained by defeating the dragon Shou-Lao the Undying. This allows him to focus his chi to superhuman levels.",
+  "comics": [
+    {"title": "The Immortal Iron Fist (Fraction/Brubaker/Aja)"},
+    {"title": "Marvel Premiere #15 (First Appearance)"},
+    {"title": "Power Man and Iron Fist"}
+  ]
+}

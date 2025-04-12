@@ -1,0 +1,65 @@
+{
+  "name": "Scarlet Witch",
+  "role": "Strategist",
+  "health": 400,
+  "speed": "6 m/s",
+  "color_theme": "#DC2626",
+  "color_theme_secondary": "#F472B6",
+  "abilities": [
+    {
+      "name": "Hex Bolt",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "55 + Potential Debuff",
+      "range": "Medium Projectile (Homing?)",
+      "cooldown": "N/A",
+      "details": "Fires bolts of chaos magic that seek targets and may apply a random minor debuff (e.g., brief slow, damage amp)."
+    },
+    {
+      "name": "Reality Warp",
+      "keybind": "RMB",
+      "type": "Utility / Area Control",
+      "damage": "N/A (Applies Effect)",
+      "range": "Targeted Area (~8m Radius)",
+      "cooldown": "10s",
+      "details": "Alters reality in a small area, potentially creating hazardous terrain or applying a stronger debuff (e.g., silence, disarm)."
+    },
+    {
+      "name": "Chaos Shield",
+      "keybind": "E",
+      "type": "Utility / Defense",
+      "damage": "N/A (Reflects Projectiles?)",
+      "range": "Target Ally / Self (~15m)",
+      "cooldown": "12s",
+      "details": "Creates a protective shield of chaotic energy (~400 HP?) that may reflect some projectiles erratically."
+    }
+  ],
+  "ultimate": {
+    "name": "No More...",
+    "keybind": "Q",
+    "damage": "150 Damage + Ability Lockout",
+    "range": "Large AoE (15m radius?)",
+    "effect": "Unleashes immense chaos magic, damaging enemies and preventing them from using non-primary fire abilities for ~4 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "A devastating reality-altering ultimate that disrupts enemy teams significantly."
+  },
+  "passives": [
+    {
+      "name": "Probability Manipulation",
+      "keybind": "Passive",
+      "details": "Grants nearby allies a small chance to ignore minor damage instances. Causes enemies near Wanda to have a small chance for abilities to briefly malfunction (increased cooldown trigger?)."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Magneto / Vision / Doctor Strange",
+      "effect": "Chaos Shield reflects projectiles more reliably when near specified allies."
+    }
+  ],
+  "lore": "Wanda Maximoff, a mutant (or magic user, depending on continuity) with the ability to manipulate probability and reality itself through chaos magic. Her immense power is often unstable.",
+  "comics": [
+    {"title": "Avengers: Disassembled"},
+    {"title": "House of M"},
+    {"title": "The Vision and the Scarlet Witch"}
+  ]
+}

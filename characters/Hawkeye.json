@@ -1,0 +1,70 @@
+{
+  "name": "Hawkeye",
+  "role": "Duelist",
+  "health": 400,
+  "speed": "6.2 m/s",
+  "color_theme": "#9333EA",
+  "color_theme_secondary": "#9E9E9E",
+  "abilities": [
+    {
+      "name": "Trick Arrow",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "Varies by type (Standard: ~70, Explosive: ~80 AoE, Sonic: ~30 + Debuff)",
+      "range": "Long Projectile",
+      "cooldown": "N/A (Uses Quiver)",
+      "details": "Fires the currently selected arrow type."
+    },
+    {
+      "name": "Select Arrow",
+      "keybind": "RMB (Hold/Tap?)",
+      "type": "Utility",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A",
+      "details": "Cycles through available arrow types (e.g., Standard, Explosive, Grapple, Sonic)."
+    },
+    {
+      "name": "Grapple Arrow",
+      "keybind": "E (Requires Grapple selected)",
+      "type": "Mobility",
+      "damage": "N/A",
+      "range": "30m Hook",
+      "cooldown": "8s",
+      "details": "Fires a grappling arrow to pull himself rapidly to terrain."
+    }
+  ],
+  "ultimate": {
+    "name": "Hunter's Volley",
+    "keybind": "Q",
+    "damage": "~30-40 per arrow in AoE (Many arrows)",
+    "range": "Large targeted AoE circle",
+    "effect": "Fires a massive volley of arrows raining down into a target area.",
+    "charge_cost": "[Cost]",
+    "details": "Deals significant area damage over a short duration."
+  },
+  "passives": [
+    {
+      "name": "Master Archer",
+      "keybind": "Passive",
+      "details": "Arrows fly faster and straighter. Possibly reduced weapon sway."
+    },
+    {
+      "name": "Quiver",
+      "keybind": "Passive",
+      "details": "Manages ammo count for different arrow types, which replenish over time."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Black Widow / Captain America",
+      "effect": "Explosive Arrow radius increased when near specified allies."
+    }
+  ],
+  "lore": "Clint Barton, a former circus performer turned master archer and Avenger. Despite lacking superpowers, his unparalleled skill with a bow and arrow makes him a valuable asset.",
+  "comics": [
+    {"title": "Hawkeye (particularly by Fraction/Aja)"},
+    {"title": "Tales of Suspense #57 (First Appearance)"},
+    {"title": "West Coast Avengers"}
+  ]
+}

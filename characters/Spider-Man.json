@@ -1,0 +1,84 @@
+{
+  "name": "Spider-Man",
+  "role": "Duelist",
+  "health": 400,
+  "speed": "6.5 m/s (Ground) / Fast (Web Swing)",
+  "color_theme": "#DC2626",
+  "color_theme_secondary": "#3B82F6",
+  "abilities": [
+    {
+      "name": "Web Shot",
+      "keybind": "LMB",
+      "type": "Primary Fire / Control",
+      "damage": "20 + Web Buildup",
+      "range": "Medium Projectile",
+      "cooldown": "N/A (Uses Web Fluid)",
+      "details": "Shoots webbing that slows enemies. Multiple hits can briefly immobilize ('Webbed')."
+    },
+    {
+      "name": "Web Swing",
+      "keybind": "RMB (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Requires Anchor Points (~30m)",
+      "cooldown": "N/A (Uses Web Fluid)",
+      "details": "Classic web-swinging for high mobility across maps."
+    },
+    {
+      "name": "Web Zip",
+      "keybind": "LShift",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Medium Target Point (~20m)",
+      "cooldown": "4s",
+      "details": "Quickly zips towards a targeted location."
+    },
+     {
+      "name": "Web Grenade?",
+      "keybind": "E",
+      "type": "Utility / Control",
+      "damage": "10 + AoE Web Buildup",
+      "range": "Medium Arc / Small AoE",
+      "cooldown": "10s",
+      "details": "Throws a grenade that explodes, applying Web effect in an area."
+    }
+  ],
+  "ultimate": {
+    "name": "Web Blossom",
+    "keybind": "Q",
+    "damage": "~30 per hit (Rapid Hits)",
+    "range": "Large AoE around Spider-Man",
+    "effect": "Leaps into the air and rapidly shoots webs in all directions, heavily webbing nearby enemies.",
+    "charge_cost": "[Cost]",
+    "details": "Goes all out with his web shooters for area denial and control."
+  },
+  "passives": [
+    {
+      "name": "Spider-Sense",
+      "keybind": "Passive",
+      "details": "Provides a visual indicator when targeted by enemy attacks or abilities."
+    },
+    {
+      "name": "Wall Crawling",
+      "keybind": "Passive (While near wall)",
+      "details": "Can stick to and crawl on any surface."
+    },
+    {
+        "name": "Web Fluid",
+        "keybind": "Passive",
+        "details": "Manages web fluid resource, which regenerates over time. Used by Web Shot and Web Swing."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Peni Parker / Human Torch?",
+      "effect": "Web Fluid regeneration rate increased."
+    }
+  ],
+  "lore": "Peter Parker, bitten by a radioactive spider, gained incredible arachnid-like abilities. Balancing his life as a high school student (or adult) with being Spider-Man, he fights crime with great power and great responsibility.",
+  "comics": [
+    {"title": "Amazing Spider-Man (various series)"},
+    {"title": "Amazing Fantasy #15 (First Appearance)"},
+    {"title": "Ultimate Spider-Man"}
+  ]
+}

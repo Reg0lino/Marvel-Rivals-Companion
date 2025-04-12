@@ -1,0 +1,31 @@
+# Marvel Rivals: Recent News Highlights (Generated April 12, 2025)
+
+Welcome back, Rivals! Here's a rundown of the latest major developments:
+
+## Season 2: "Hellfire Gala" Has Arrived! (Launched April 11, 2025)
+
+*   Jump into the brand new season featuring the X-Men's iconic Krakoa and mutant intrigue!
+*   **New Hero:** Emma Frost enters the battle as a Vanguard, utilizing her diamond form and psionic powers.
+*   **New Map:** "Hellfire Gala: Krakoa" (Domination mode) added to the map rotation, including competitive play.
+*   **Battle Pass:** A new Season 2 Battle Pass is available with 10 new sets of hero costumes and other rewards.
+*   **Seasonal Event:** Participate in the "Cerebro Database" event to earn the free Mantis "Flora Maiden" costume. Complete 9 matches for the free Scarlet Witch "Chaos Gown" costume.
+
+## Major Game Update & Balance Patch (Version 20250411)
+
+*   Significant balance adjustments deployed targeting various heroes (Hulk buffed, Dr. Strange nerfed, Strategist ultimate costs adjusted, etc.) and Team-Up synergies. See the Balance Post for full details.
+*   **New Features:** Cosmetic gifting between friends added. Enhanced custom game options, including a Tournament Room with pause/away features. Faction recruitment system introduced.
+*   **Competitive Changes:** Ranked reset implemented (9-division drop). Hero Bans extended down to Gold rank. Map pool rotation updated (Krakoa in, Yggsgard Palace & Shin-Shibuya out).
+*   **Platform Updates:** Experimental shader compilation mode for PC performance. Console sensitivity and dead zone setting adjustments. Numerous bug fixes across all platforms.
+
+## Developer Insights & Community Focus
+
+*   **Dev Vision Vol. 4:** Outlined the content for Season 2, including Emma Frost and the Krakoa map. Discussed upcoming Team-Up adjustments and the plan for future seasons (potentially shifting to 2-month seasons with monthly hero releases starting Season 3).
+*   **Performance:** Addressed PC performance issues with an experimental shader compilation feature in the latest patch.
+*   **Balance Philosophy:** Devs continue to adjust hero balance based on performance data and player feedback, aiming to address meta concerns like the previous prevalence of triple-Strategist compositions.
+
+## Coming Soon?
+
+*   **Ultron:** Teased to arrive in the second half of Season 2 (Season 2.5).
+*   **Twitch Drops:** A new event is planned, featuring rewards like the Namor "Will of Galacta" costume (details to be announced).
+
+Stay tuned for more updates from the Marvel Rivals team!

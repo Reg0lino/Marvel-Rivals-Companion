@@ -1,0 +1,74 @@
+{
+  "name": "Psylocke",
+  "role": "Duelist",
+  "health": 400,
+  "speed": "6.5 m/s",
+  "color_theme": "#A855F7",
+  "color_theme_secondary": "#EC4899",
+  "abilities": [
+    {
+      "name": "Psi-Katana",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "45/45/60 (Combo)",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Attacks with her telekinetically-focused katana in a three-hit combo."
+    },
+    {
+      "name": "Psychic Knife",
+      "keybind": "RMB",
+      "type": "Secondary Fire / Debuff",
+      "damage": "30 + 1.5s Silence/Disrupt",
+      "range": "Short Projectile (~15m?)",
+      "cooldown": "9s",
+      "details": "Throws her focused telepathic knife, briefly silencing enemy abilities on hit."
+    },
+    {
+      "name": "Telekinetic Dash",
+      "keybind": "LShift",
+      "type": "Mobility",
+      "damage": "N/A",
+      "range": "10m Dash",
+      "cooldown": "6s (2 Charges?)",
+      "details": "Performs a quick dash, phasing briefly."
+    },
+     {
+      "name": "Psi-Bow",
+      "keybind": "E",
+      "type": "Utility / Ranged Attack",
+      "damage": "80 (Charged)",
+      "range": "Long Projectile",
+      "cooldown": "10s",
+      "details": "Charges and fires a powerful psychic arrow."
+    }
+  ],
+  "ultimate": {
+    "name": "Telekinetic Katana Barrage",
+    "keybind": "Q",
+    "damage": "~50 per strike (multiple strikes)",
+    "range": "Cone AoE / Channeled",
+    "effect": "Unleashes a flurry of rapid psi-katana strikes in a cone in front of her.",
+    "charge_cost": "[Cost]",
+    "details": "Channels the ultimate for several seconds, dealing high damage."
+  },
+  "passives": [
+    {
+      "name": "Ninjutsu",
+      "keybind": "Passive",
+      "details": "Moves slightly faster while crouched and makes less noise."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Wolverine / Captain Britain?",
+      "effect": "Psychic Knife silence duration increased."
+    }
+  ],
+  "lore": "Betsy Braddock, a powerful mutant telepath and telekinetic, originally British but whose mind was swapped into the body of the Japanese ninja Kwannon. She often focuses her psychic power into weapons like her iconic psi-katana.",
+  "comics": [
+    {"title": "Uncanny X-Men (various series)"},
+    {"title": "Excalibur / X-Force"},
+    {"title": "Captain Britain #8 (UK - First Appearance)"}
+  ]
+}

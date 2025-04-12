@@ -1,0 +1,33 @@
+# Marvel Rivals: Overview & Community Insights (Generated April 12, 2025)
+
+## Core Gameplay
+
+Marvel Rivals is a free-to-play, 6v6, third-person hero shooter developed by NetEase Games in collaboration with Marvel Games. Released on December 6, 2024, for PC (Steam, Epic Games), PlayStation 5, and Xbox Series X/S with cross-play enabled. Players select from a roster of Marvel characters, categorized into roles (Vanguard, Duelist, Strategist), and battle across various maps using unique abilities and powerful "Team-Up" skills triggered by specific hero combinations. The game features destructible environments powered by Unreal Engine 5.
+
+## Key Features
+
+*   **Growing Roster:** Play as iconic and lesser-known Marvel heroes and villains (38 playable as of early April 2025, with Emma Frost being the latest addition).
+*   **Team-Up Skills:** Coordinate with teammates to execute synergistic abilities based on hero pairings. Team-Up combinations are adjusted seasonally.
+*   **Destructible Environments:** Alter the battlefield strategically by destroying cover and map elements.
+*   **Multiple Game Modes:** Features modes like Convoy (Payload Escort), Domination (Point Control), and Convergence.
+*   **Seasonal Content:** Each season introduces new heroes, maps, battle passes, and potentially gameplay adjustments.
+
+## Current State & Meta Snapshot (Based on Community Discussion - Season 2 Start)
+
+*   **Season 2 Launch:** Season 2 "Hellfire Gala" launched on April 11, 2025, introducing Emma Frost (Vanguard) and the Krakoa map.
+*   **Meta Concerns (Late Season 1 / Early Season 2):** Community discussions, particularly on Reddit and forums from late Season 1 and leading into Season 2, frequently highlighted concerns about a "Triple Support" (Strategist) meta, comparing it to the "GOATS" meta from Overwatch's past. This composition offered high survivability and sustain, leading to prolonged fights. Devs addressed this in the Season 2 patch by increasing ultimate costs for several key Strategists (Cloak & Dagger, Invisible Woman, Loki, Luna Snow) and nerfing Cloak & Dagger's healing stacking.
+*   **Impact of Emma Frost:** As a new Vanguard with control abilities, Emma Frost's impact on the meta is currently being evaluated by the player base. Her synergy potential (e.g., with Magneto/Psylocke) is a point of focus.
+*   **Hero Bans:** Hero bans are active in higher competitive ranks (now Gold and above as of Season 2, previously Diamond+), allowing players to remove perceived overpowered or frustrating heroes from matches. Common bans in previous metas included characters like Hela or others dominant at the time. This system is generally seen as a way for players to partially self-regulate the meta between official balance patches.
+*   **Role Balance:** While Duelists often secure eliminations, the strategic importance of Vanguards (creating space, absorbing damage) and Strategists (healing, utility) is crucial. The effectiveness of high-impact Strategist ultimates was a key factor in the previous meta's discussions. Balance changes in Season 2 aimed to adjust the power levels across roles, with notable buffs to heroes like Hulk, Rocket Raccoon, and Moon Knight, and nerfs/adjustments to others like Doctor Strange and Captain America.
+
+## Player Sentiment & Discussion Points (Simulated & Observed)
+
+*   **Positives:** Players generally praise the character roster diversity, visual fidelity, the core fun of the hero shooter gameplay, and the unique Team-Up mechanic. The free-to-play model with unlockable heroes is also often cited positively. The addition of features like cosmetic gifting is welcomed.
+*   **Common Criticisms/Concerns:**
+    *   **Performance:** Persistent issues with performance, stuttering, and frame drops on PC, potentially linked to Unreal Engine 5, were frequently mentioned in community posts (Steam discussions, Reddit) even after launch. Recent patches included "experimental" shader compilation options to mitigate this.
+    *   **Balance:** Ongoing balance debates are common, focusing on specific hero strengths (e.g., previous dominance of certain Strategists, high damage output of some Duelists like Hela) and the impact of Team-Ups. The effectiveness of the Season 2 balance changes is currently under scrutiny by the community.
+    *   **Matchmaking:** As typical for the genre, matchmaking quality, queue times, and rank distribution are recurring topics.
+    *   **Team Coordination:** Some players feel the game design doesn't inherently encourage team coordination as much as other titles, sometimes leading to disorganized matches, especially at lower ranks.
+    *   **Monetization Concerns:** Past surveys asking about potentially paying for heroes raised community concerns, although the current model keeps heroes unlockable for free.
+
+_(Note: Meta and sentiment are dynamic. This snapshot reflects information leading into and at the start of Season 2, April 2025.)_

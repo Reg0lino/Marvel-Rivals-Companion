@@ -1,0 +1,74 @@
+{
+  "name": "Namor",
+  "role": "Vanguard",
+  "health": 650,
+  "speed": "6 m/s (Ground) / 7 m/s (Flight/Water)",
+  "color_theme": "#14B8A6",
+  "color_theme_secondary": "#FACC15",
+  "abilities": [
+    {
+      "name": "Trident Strike / Throw",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "75 (Melee) / 90 (Throw)",
+      "range": "Melee / Medium Projectile",
+      "cooldown": "N/A (Throw has cooldown?)",
+      "details": "Strikes with Trident of Neptune. Can be charged to throw."
+    },
+    {
+      "name": "Hydro Blast",
+      "keybind": "RMB",
+      "type": "Secondary Fire",
+      "damage": "60 + Knockback",
+      "range": "Short Cone AoE",
+      "cooldown": "7s",
+      "details": "Unleashes a powerful blast of water, pushing enemies back."
+    },
+    {
+      "name": "Flight",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A (Uses Stamina/Resource?)",
+      "details": "Uses ankle wings for flight."
+    },
+     {
+      "name": "Ocean's Fury",
+      "keybind": "E",
+      "type": "Utility / Attack",
+      "damage": "80",
+      "range": "Medium Lunge",
+      "cooldown": "10s",
+      "details": "Lunges forward with the trident, piercing enemies."
+    }
+  ],
+  "ultimate": {
+    "name": "Imperius Rex! (Tidal Wave)",
+    "keybind": "Q",
+    "damage": "250 + Massive Knockback",
+    "range": "Large Wave AoE",
+    "effect": "Summons a massive tidal wave that crashes forward, dealing damage and displacing enemies.",
+    "charge_cost": "[Cost]",
+    "details": "Asserts his royal authority over the sea."
+  },
+  "passives": [
+    {
+      "name": "Atlantean Physiology",
+      "keybind": "Passive",
+      "details": "Enhanced strength, durability. Regenerates health faster when near water sources (if any exist on maps)."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Doctor Doom / Captain America",
+      "effect": "Ultimate ('Imperius Rex!') wave travels faster."
+    }
+  ],
+  "lore": "The Sub-Mariner, king of Atlantis. Namor McKenzie is a human-Atlantean hybrid mutant, possessing immense strength, flight, and command over the oceans. He is fiercely protective of his kingdom, often acting as an anti-hero.",
+  "comics": [
+    {"title": "Sub-Mariner (various series)"},
+    {"title": "Motion Picture Funnies Weekly #1 (First Appearance)"},
+    {"title": "The Invaders"}
+  ]
+}

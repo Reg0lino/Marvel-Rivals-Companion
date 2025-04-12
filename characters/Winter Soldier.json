@@ -1,0 +1,83 @@
+{
+  "name": "Winter Soldier",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6.2 m/s",
+  "color_theme": "#60A5FA",
+  "color_theme_secondary": "#DC2626",
+  "abilities": [
+    {
+      "name": "Precision Rifle",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "35-40 (Scoped: ~70 Headshot?)",
+      "range": "Mid-Long",
+      "cooldown": "N/A",
+      "details": "Fires accurate shots from his custom rifle. Can scope for increased precision and damage (ADS)."
+    },
+    {
+      "name": "Underslung Grenade",
+      "keybind": "RMB",
+      "type": "Secondary Fire / AoE",
+      "damage": "70 + Splash Damage",
+      "range": "Mid (Projectile)",
+      "cooldown": "9s",
+      "details": "Launches an explosive grenade from his rifle's attachment, dealing area damage."
+    },
+    {
+      "name": "Grappling Hook",
+      "keybind": "LShift",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "20m",
+      "cooldown": "7s",
+      "details": "Fires a grappling hook, quickly pulling himself to the target location."
+    },
+    {
+      "name": "Metal Shield",
+      "keybind": "E",
+      "type": "Defensive",
+      "damage": "N/A (Blocks Damage)",
+      "range": "Self",
+      "cooldown": "12s",
+      "details": "Uses his bionic arm to block incoming projectiles and attacks from the front for a short duration."
+    }
+  ],
+  "ultimate": {
+    "name": "Cybernetic Sharpshooter",
+    "keybind": "Q",
+    "damage": "200+ (High Single Target)",
+    "range": "Long (Hitscan)",
+    "effect": "Locks onto a target after a brief charge, firing a high-caliber round from his bionic arm for massive damage.",
+    "charge_cost": "[Cost]",
+    "details": "Activates his arm's hidden capabilities for a devastating sniper shot."
+  },
+  "passives": [
+    {
+      "name": "Stalker",
+      "keybind": "Passive",
+      "details": "Briefly becomes invisible after using Grappling Hook."
+    },
+    {
+      "name": "Headstrong",
+      "keybind": "Passive",
+      "details": "Precision Rifle deals increased headshot damage."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Captain America",
+      "effect": "Using Metal Shield near Captain America grants both a temporary damage resistance buff."
+    },
+     {
+      "partner": "Black Widow",
+      "effect": "Enemies damaged by Underslung Grenade are briefly revealed to Black Widow."
+    }
+  ],
+  "lore": "James Buchanan 'Bucky' Barnes, Captain America's former sidekick during WWII. Captured and brainwashed by Hydra, he became the deadly assassin known as the Winter Soldier. Now free from his programming, he fights for redemption, utilizing his expert marksmanship, combat skills, and advanced bionic arm.",
+  "comics": [
+    {"title": "Captain America (Vol 5, Ed Brubaker run - Return of Winter Soldier)"},
+    {"title": "Winter Soldier (Solo Series, various)"},
+    {"title": "Tales of Suspense #1 (First Appearance as Bucky)"}
+  ]
+}

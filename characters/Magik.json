@@ -1,0 +1,70 @@
+{
+  "name": "Magik",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6.2 m/s",
+  "color_theme": "#FBBF2C",
+  "color_theme_secondary": "#7E22CE",
+  "abilities": [
+    {
+      "name": "Soulsword Strike",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "65",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Attacks with her mystical Soulsword, which deals bonus damage to shields/constructs."
+    },
+    {
+      "name": "Stepping Disc",
+      "keybind": "RMB",
+      "type": "Mobility",
+      "damage": "N/A",
+      "range": "18m Teleport",
+      "cooldown": "7s (2 Charges)",
+      "details": "Creates a teleportation disc, instantly moving to the target location."
+    },
+    {
+      "name": "Limbo Blast",
+      "keybind": "E",
+      "type": "Utility / Damage",
+      "damage": "70 AoE",
+      "range": "Short Cone AoE",
+      "cooldown": "9s",
+      "details": "Unleashes a blast of energy from the Limbo dimension in front of her."
+    }
+  ],
+  "ultimate": {
+    "name": "Darkchylde Transformation",
+    "keybind": "Q",
+    "damage": "N/A (Buff) + Demon Summon",
+    "range": "Self Buff",
+    "effect": "Transforms into Darkchylde for 10s: Gains increased damage, lifesteal, Eldritch Armor regen. Summons a minor Limbo demon to fight alongside.",
+    "charge_cost": "[Cost]",
+    "details": "Embraces her full Limbo power."
+  },
+  "passives": [
+    {
+      "name": "Eldritch Armor",
+      "keybind": "Passive",
+      "details": "Generates stacks of Eldritch Armor (up to 3?) when dealing damage. Each stack provides minor damage reduction. Stacks decay over time."
+    },
+    {
+      "name": "Soulsword",
+      "keybind": "Passive",
+      "details": "Basic attacks deal significantly increased damage to shields and deployables."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Colossus / Doctor Strange",
+      "effect": "Stepping Disc cooldown reduced when teleporting near specified allies."
+    }
+  ],
+  "lore": "Illyana Rasputina, the younger sister of Colossus, was trapped in the demonic dimension Limbo where she became a powerful sorceress and learned to wield the Soulsword. She rules Limbo and can create teleportation 'stepping discs'.",
+  "comics": [
+    {"title": "Magik (Illyana and Storm limited series)"},
+    {"title": "New Mutants (various series)"},
+    {"title": "Uncanny X-Men (various series)"}
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Thor",
+  "role": "Vanguard",
+  "health": 650,
+  "speed": "6 m/s (Ground) / 8 m/s (Flight)",
+  "color_theme": "#60A5FA",
+  "color_theme_secondary": "#EF4444",
+  "abilities": [
+    {
+      "name": "Mjolnir Strike",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "80",
+      "range": "Melee",
+      "cooldown": "N/A",
+      "details": "Strikes enemies with his enchanted hammer, Mjolnir."
+    },
+     {
+      "name": "Mjolnir Throw",
+      "keybind": "RMB (Tap)",
+      "type": "Secondary Fire / Ranged",
+      "damage": "90",
+      "range": "Medium Projectile (~25m)",
+      "cooldown": "2s (After return)",
+      "details": "Throws Mjolnir, which returns after hitting an enemy or max range."
+    },
+     {
+      "name": "God of Thunder",
+      "keybind": "RMB (Hold)",
+      "type": "Secondary Fire / Damage",
+      "damage": "70",
+      "range": "Targeted Bolt (~30m)",
+      "cooldown": "8s",
+      "details": "Calls down a powerful lightning strike on a target location."
+    },
+    {
+      "name": "Flight",
+      "keybind": "Space (Hold)",
+      "type": "Movement",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "N/A (Toggle/Resource?)",
+      "details": "Uses Mjolnir to fly."
+    },
+    {
+      "name": "Hammer Spin",
+      "keybind": "E",
+      "type": "Utility / Defense",
+      "damage": "20 per hit (minor)",
+      "range": "AoE around self",
+      "cooldown": "10s",
+      "details": "Spins Mjolnir rapidly, deflecting projectiles and dealing minor damage nearby."
+    }
+  ],
+  "ultimate": {
+    "name": "Bifrost Strike",
+    "keybind": "Q",
+    "damage": "400",
+    "range": "Large Targeted AoE Circle",
+    "effect": "Summons the Bifrost to strike a target location after a delay, dealing massive damage.",
+    "charge_cost": "[Cost]",
+    "details": "Calls upon the power of Asgard's rainbow bridge."
+  },
+  "passives": [
+    {
+      "name": "Asgardian Physiology",
+      "keybind": "Passive",
+      "details": "Super strength, durability. Gains minor damage reduction when near allies?"
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Loki / Hela / Captain America",
+      "effect": "God of Thunder (Lightning) cooldown reduced."
+    }
+  ],
+  "lore": "The Norse God of Thunder, Thor Odinson is the prince (and sometimes king) of Asgard. Wielding the enchanted hammer Mjolnir, he commands storms and possesses immense strength and durability.",
+  "comics": [
+    {"title": "Thor (various series, particularly by Simonson, Aaron)"},
+    {"title": "Journey into Mystery #83 (First Appearance)"},
+    {"title": "The Mighty Thor"}
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Loki",
+  "role": "Strategist",
+  "health": 400,
+  "speed": "6 m/s",
+  "color_theme": "#16A34A",
+  "color_theme_secondary": "#FBBF2C",
+  "abilities": [
+    {
+      "name": "Dagger Throw",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "55 per dagger",
+      "range": "Medium Projectile (25m?)",
+      "cooldown": "N/A (Fires relatively quickly)",
+      "details": "Throws enchanted daggers with precision."
+    },
+    {
+      "name": "Illusion Decoy",
+      "keybind": "RMB",
+      "type": "Utility / Deception",
+      "damage": "N/A (Explodes for 30 damage?)",
+      "range": "Placeable (~15m range)",
+      "cooldown": "9s",
+      "details": "Creates an illusionary duplicate that mimics movement. May explode for minor damage when destroyed or expired."
+    },
+    {
+      "name": "Trickster's Teleport",
+      "keybind": "E",
+      "type": "Mobility",
+      "damage": "N/A",
+      "range": "12m Teleport",
+      "cooldown": "7s",
+      "details": "Short-range teleport, possibly leaving behind a very brief illusion."
+    }
+  ],
+  "ultimate": {
+    "name": "God of Mischief",
+    "keybind": "Q",
+    "damage": "N/A",
+    "range": "Targeted Enemy / Small AoE?",
+    "effect": "Applies a random potent debuff (e.g., Polymorph into animal, Reverse Controls, Forced Movement) for ~4 seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Unleashes powerful, disorienting illusion magic on target(s)."
+  },
+  "passives": [
+    {
+      "name": "Master of Illusions",
+      "keybind": "Passive",
+      "details": "When Loki takes damage, he briefly becomes invisible (Short cooldown on this effect)."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Thor / Hela",
+      "effect": "Illusion Decoy duration increased when near specified allies."
+    }
+  ],
+  "lore": "The Asgardian God of Mischief, adopted brother of Thor. Loki is a master of sorcery, illusion, and deceit, constantly scheming and shifting allegiances.",
+  "comics": [
+    {"title": "Journey into Mystery (Gillen run)"},
+    {"title": "Loki: Agent of Asgard"},
+    {"title": "Journey into Mystery #85 (First Appearance)"}
+  ]
+}

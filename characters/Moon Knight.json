@@ -1,0 +1,74 @@
+{
+  "name": "Moon Knight",
+  "role": "Duelist",
+  "health": 450,
+  "speed": "6.2 m/s",
+  "image_path": "images/moon_knight.png",
+  "color_theme": "#F5F5F5",
+  "abilities": [
+    {
+      "name": "Crescent Darts",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "30 per dart (Fires burst of 2-3?)",
+      "range": "Medium Projectile",
+      "cooldown": "N/A (Ammo)",
+      "details": "Throws sharp crescent-shaped darts."
+    },
+    {
+      "name": "Truncheon Strike",
+      "keybind": "RMB",
+      "type": "Secondary Fire / Melee",
+      "damage": "60",
+      "range": "Melee",
+      "cooldown": "N/A (Part of combo?)",
+      "details": "Strikes with his weighted truncheon."
+    },
+    {
+      "name": "Grappling Hook / Cable",
+      "keybind": "E",
+      "type": "Mobility / Utility",
+      "damage": "N/A",
+      "range": "Medium Hook (~20m)",
+      "cooldown": "8s",
+      "details": "Uses a cable gun for grappling or potentially pulling enemies."
+    },
+    {
+      "name": "Khonshu's Blessing (Stance?)",
+      "keybind": "LShift",
+      "type": "Utility",
+      "damage": "N/A",
+      "range": "Self",
+      "cooldown": "10s",
+      "details": "Briefly empowers next ability or gains temporary buff (e.g., damage reduction, speed)."
+    }
+  ],
+  "ultimate": {
+    "name": "Fist of Khonshu",
+    "keybind": "Q",
+    "damage": "N/A (Buff)",
+    "range": "Self Buff",
+    "effect": "Becomes empowered for 8s: Increased damage, damage resistance, and faster ability cooldowns.",
+    "charge_cost": "[Cost]",
+    "details": "Channels the vengeful power of the Egyptian moon god."
+  },
+  "passives": [
+    {
+      "name": "Embrace the Pain",
+      "keybind": "Passive",
+      "details": "Gains increased damage resistance the lower his health is."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Punisher",
+      "effect": "Ultimate duration slightly increased."
+    }
+  ],
+  "lore": "Marc Spector, a mercenary left for dead, was resurrected by the Egyptian moon god Khonshu to serve as his avatar. Suffering from dissociative identity disorder, Moon Knight operates under multiple personas, fighting crime with brutal methods.",
+  "comics": [
+    {"title": "Moon Knight (particularly by Ellis/Shalvey, Lemire/Smallwood)"},
+    {"title": "Werewolf by Night #32 (First Appearance)"},
+    {"title": "Vengeance of the Moon Knight"}
+  ]
+}

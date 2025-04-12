@@ -1,0 +1,65 @@
+{
+  "name": "Doctor Strange",
+  "role": "Strategist",
+  "health": 400,
+  "speed": "6 m/s",
+  "color_theme": "#DC2626",
+  "color_theme_secondary": "#FBBF2C",
+  "abilities": [
+    {
+      "name": "Bolts of Balthakk",
+      "keybind": "LMB",
+      "type": "Primary Fire",
+      "damage": "60 per bolt",
+      "range": "Medium Projectile (30m?)",
+      "cooldown": "N/A (Fires relatively quickly)",
+      "details": "Fires precise bolts of mystical energy."
+    },
+    {
+      "name": "Mystic Portal",
+      "keybind": "RMB",
+      "type": "Utility / Mobility",
+      "damage": "N/A",
+      "range": "Place Portal A (~20m), Portal B (~20m)",
+      "cooldown": "10s (after second portal placed or timeout)",
+      "details": "Creates two linked portals. Allies and Strange can travel through instantly. Lasts ~15 seconds."
+    },
+    {
+      "name": "Eye of Agamotto",
+      "keybind": "E",
+      "type": "Utility / Debuff",
+      "damage": "N/A",
+      "range": "Large Cone AoE",
+      "cooldown": "12s",
+      "details": "Reveals enemies hit for ~5 seconds and applies a brief 'Slow' debuff."
+    }
+  ],
+  "ultimate": {
+    "name": "Sorcerer Supreme",
+    "keybind": "Q",
+    "damage": "100 damage + Rewind Effect",
+    "range": "Large AoE centered on Strange",
+    "effect": "Damages enemies and 'rewinds' their position back several seconds.",
+    "charge_cost": "[Cost]",
+    "details": "Channels reality-warping magic after a brief cast time."
+  },
+  "passives": [
+    {
+      "name": "Levitation",
+      "keybind": "Passive (Hold Space)",
+      "details": "Can hover or float slowly for a limited duration."
+    }
+  ],
+  "teamups": [
+    {
+      "partner": "Scarlet Witch / Loki",
+      "effect": "Enemies revealed by Eye of Agamotto take slightly increased damage from magic sources."
+    }
+  ],
+  "lore": "Dr. Stephen Strange was a brilliant but arrogant surgeon who lost the use of his hands. Seeking healing, he found the Ancient One and became the Sorcerer Supreme, Earth's primary protector against mystical threats.",
+  "comics": [
+    {"title": "Doctor Strange (various series, particularly by Lee/Ditko, Aaron)"},
+    {"title": "Strange Tales #110 (First Appearance)"},
+    {"title": "The Oath"}
+  ]
+}
